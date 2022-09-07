@@ -66,9 +66,9 @@
             "description": "CyberBot",
             "isSmalltalkMigrated": true,
             "nlMeta": {
-                "mlUtterances": 0,
-                "patterns": 0,
-                "synonyms": 713
+                "mlUtterances": 30,
+                "patterns": 5,
+                "synonyms": 719
             },
             "keywords": [],
             "synonyms": {
@@ -1003,10 +1003,33 @@
         },
         {
             "localeData": {
-                "en": {}
+                "en": {
+                    "patterns": [
+                        {
+                            "value": "mobile hacked comfirm",
+                            "original": "mobile hacked comfirm"
+                        },
+                        {
+                            "value": "computer hacked comfirm",
+                            "original": "computer hacked comfirm"
+                        },
+                        {
+                            "value": "network hacked comfirm",
+                            "original": "network hacked comfirm"
+                        },
+                        {
+                            "value": "find hacked",
+                            "original": "find hacked"
+                        },
+                        {
+                            "value": "prevent hacked",
+                            "original": "prevent hacked"
+                        }
+                    ]
+                }
             },
             "refId": "284af91b-10bf-5ec1-8914-21bd252d4557",
-            "taskName": "checkstatus",
+            "taskName": "hacked",
             "taskType": "intent",
             "nodeType": "dialog"
         },
@@ -1193,7 +1216,7 @@
         {
             "_id": "dc-332386dd-bf69-5580-b563-79dcc674197f",
             "refId": "284af91b-10bf-5ec1-8914-21bd252d4557",
-            "name": "checkstatus",
+            "name": "hacked",
             "piiDataEnabled": false,
             "serviceNodeType": "custom",
             "type": "intent",
@@ -1202,7 +1225,8 @@
             "localeData": {
                 "en": {
                     "desc": "Checking the status of the user",
-                    "intent": "checkstatus"
+                    "intent": "hacked",
+                    "traitRules": []
                 }
             },
             "entityFields": {
@@ -1343,6 +1367,24 @@
                             "type": "basic"
                         }
                     }
+                },
+                {
+                    "channel": "default",
+                    "localeData": {
+                        "en": {
+                            "text": "I%20am%20here%20to%20fix%20your%20hacked%20stuff",
+                            "type": "basic"
+                        }
+                    }
+                },
+                {
+                    "channel": "default",
+                    "localeData": {
+                        "en": {
+                            "text": "Are%20you%20hacked%20by%20anyone%2C%20let%20me%20help%20you%20%3F",
+                            "type": "basic"
+                        }
+                    }
                 }
             ],
             "applyDefaultTemplate": false,
@@ -1468,7 +1510,15 @@
             "applyDefaultTemplate": false,
             "localeData": {
                 "en": {
-                    "label": "getDetails"
+                    "label": "getDetails",
+                    "synonyms": [
+                        "hacked",
+                        "I'm hacked",
+                        "mobile hacked",
+                        "pc hacked",
+                        "computer hacked",
+                        "network hacked"
+                    ]
                 }
             },
             "entityFields": {
@@ -1491,7 +1541,7 @@
                     "channel": "default",
                     "localeData": {
                         "en": {
-                            "text": "I could not understand that. Can you rephrase?",
+                            "text": "I%20could%20not%20understand%20that.%20Can%20you%20rephrase%3F",
                             "type": "basic"
                         }
                     }
@@ -1500,7 +1550,16 @@
                     "channel": "default",
                     "localeData": {
                         "en": {
-                            "text": "I am unable to find an answer. Please try something else.",
+                            "text": "I%20am%20unable%20to%20find%20an%20answer.%20Please%20try%20something%20else.",
+                            "type": "basic"
+                        }
+                    }
+                },
+                {
+                    "channel": "default",
+                    "localeData": {
+                        "en": {
+                            "text": "I%20am%20unable%20to%20find%20it.",
                             "type": "basic"
                         }
                     }
@@ -2634,11 +2693,11 @@
                     }
                 }
             ],
-            "lname": "checkstatus",
+            "lname": "hacked",
             "isHidden": false,
             "localeData": {
                 "en": {
-                    "name": "checkstatus",
+                    "name": "hacked",
                     "shortDesc": "Checking the status of the user"
                 }
             },
@@ -2753,7 +2812,7 @@
             "currentSeqId": 1,
             "description": "Checking the status of the user",
             "dialogRefId": "64367b17-478c-5af5-b486-ef81cb14ea17",
-            "name": "checkstatus",
+            "name": "hacked",
             "refId": "91130f81-8b08-5e09-a652-feee0727f418",
             "sceneLinkedBy": [],
             "sceneType": "dialogScene",
@@ -3366,7 +3425,278 @@
     "paramMaps": [],
     "taskDgParamMaps": [],
     "idpConfigurations": [],
-    "sentences": [],
+    "sentences": [
+        {
+            "_id": "63189eac15566e7d9e3bd079",
+            "taskId": "dc-332386dd-bf69-5580-b563-79dcc674197f",
+            "sentence": "I'm hacked help me",
+            "taskName": "hacked",
+            "type": "DialogIntent",
+            "entities": [],
+            "language": "en"
+        },
+        {
+            "_id": "63189f00d92ca67db1d3eeca",
+            "taskId": "dc-332386dd-bf69-5580-b563-79dcc674197f",
+            "sentence": "check my status",
+            "taskName": "checkstatus",
+            "type": "DialogIntent",
+            "entities": [],
+            "language": "en"
+        },
+        {
+            "_id": "63189f5bffdd917d662a9da6",
+            "taskId": "dc-332386dd-bf69-5580-b563-79dcc674197f",
+            "sentence": "mobile hacked, how to fix",
+            "taskName": "hacked",
+            "type": "DialogIntent",
+            "entities": [],
+            "language": "en"
+        },
+        {
+            "_id": "63189f6213916df55f4937d3",
+            "taskId": "dc-332386dd-bf69-5580-b563-79dcc674197f",
+            "sentence": "computer hacked, how to fix",
+            "taskName": "hacked",
+            "type": "DialogIntent",
+            "entities": [],
+            "language": "en"
+        },
+        {
+            "_id": "63189f67ec4adbf582cd6bf0",
+            "taskId": "dc-332386dd-bf69-5580-b563-79dcc674197f",
+            "sentence": "pc hacked, how to fix, how to fix",
+            "taskName": "hacked",
+            "type": "DialogIntent",
+            "entities": [],
+            "language": "en"
+        },
+        {
+            "_id": "63189f728f1af451bbb04a45",
+            "taskId": "dc-332386dd-bf69-5580-b563-79dcc674197f",
+            "sentence": "network hacked, how to fix",
+            "taskName": "hacked",
+            "type": "DialogIntent",
+            "entities": [],
+            "language": "en"
+        },
+        {
+            "_id": "6318a0065423ecf526e3ca8a",
+            "taskId": "dc-332386dd-bf69-5580-b563-79dcc674197f",
+            "sentence": "how to prevent hack",
+            "taskName": "hacked",
+            "type": "DialogIntent",
+            "entities": [],
+            "language": "en"
+        },
+        {
+            "_id": "6318a017f068317d7eaf94fe",
+            "taskId": "dc-332386dd-bf69-5580-b563-79dcc674197f",
+            "sentence": "how to find I am hacked",
+            "taskName": "hacked",
+            "type": "DialogIntent",
+            "entities": [],
+            "language": "en"
+        },
+        {
+            "_id": "6318a03532bedc336c530801",
+            "taskId": "dc-332386dd-bf69-5580-b563-79dcc674197f",
+            "sentence": "malware found in my computer",
+            "taskName": "hacked",
+            "type": "DialogIntent",
+            "entities": [],
+            "language": "en"
+        },
+        {
+            "_id": "6318a288bafc2d775981e7b4",
+            "taskId": "dc-b37f5aff-7cd4-5c0a-9cea-32ea451dfd76",
+            "sentence": "I am hacked",
+            "taskName": "Welcome Task",
+            "type": "DialogIntent",
+            "entities": [],
+            "language": "en"
+        },
+        {
+            "_id": "6318a29c5869f9523b3773eb",
+            "taskId": "dc-b37f5aff-7cd4-5c0a-9cea-32ea451dfd76",
+            "sentence": "my mobile hacked",
+            "taskName": "Welcome Task",
+            "type": "DialogIntent",
+            "entities": [],
+            "language": "en"
+        },
+        {
+            "_id": "6318a2a78fdaa17d7768f7cb",
+            "taskId": "dc-b37f5aff-7cd4-5c0a-9cea-32ea451dfd76",
+            "sentence": "my phone hacked",
+            "taskName": "Welcome Task",
+            "type": "DialogIntent",
+            "entities": [],
+            "language": "en"
+        },
+        {
+            "_id": "6318a2b18f1af451bbb0727a",
+            "taskId": "dc-b37f5aff-7cd4-5c0a-9cea-32ea451dfd76",
+            "sentence": "my computer hacked",
+            "taskName": "Welcome Task",
+            "type": "DialogIntent",
+            "entities": [],
+            "language": "en"
+        },
+        {
+            "_id": "6318a2b89f08ea77921ed35e",
+            "taskId": "dc-b37f5aff-7cd4-5c0a-9cea-32ea451dfd76",
+            "sentence": "my pc hacked",
+            "taskName": "Welcome Task",
+            "type": "DialogIntent",
+            "entities": [],
+            "language": "en"
+        },
+        {
+            "_id": "6318a2cebba2e9f5aa074f5f",
+            "taskId": "dc-b37f5aff-7cd4-5c0a-9cea-32ea451dfd76",
+            "sentence": "my network hacked",
+            "taskName": "Welcome Task",
+            "type": "DialogIntent",
+            "entities": [],
+            "language": "en"
+        },
+        {
+            "_id": "6318a3067b7ac8f5b24111ee",
+            "taskId": "dc-b37f5aff-7cd4-5c0a-9cea-32ea451dfd76",
+            "sentence": "help to fix",
+            "taskName": "Welcome_Task",
+            "type": "DialogIntent",
+            "entities": [],
+            "language": "en"
+        },
+        {
+            "_id": "6318a316438b8877c9d31661",
+            "taskId": "dc-b37f5aff-7cd4-5c0a-9cea-32ea451dfd76",
+            "sentence": "confirm am I hacked",
+            "taskName": "Welcome_Task",
+            "type": "DialogIntent",
+            "entities": [],
+            "language": "en"
+        },
+        {
+            "_id": "6318a36fffdd917d662acc9e",
+            "taskId": "dc-b37f5aff-7cd4-5c0a-9cea-32ea451dfd76",
+            "sentence": "how can I prevent from getting hacked",
+            "taskName": "Welcome Task",
+            "type": "DialogIntent",
+            "entities": [],
+            "language": "en"
+        },
+        {
+            "_id": "6318a39013916df55f4959ac",
+            "taskId": "dc-b37f5aff-7cd4-5c0a-9cea-32ea451dfd76",
+            "sentence": "I think I get hacked",
+            "taskName": "Welcome_Task",
+            "type": "DialogIntent",
+            "entities": [],
+            "language": "en"
+        },
+        {
+            "_id": "6318a3eb7a7f477dbf9c1e9c",
+            "taskId": "dc-18143780-0a67-50f6-8ae8-563bfd39ae50",
+            "sentence": "I do not know",
+            "taskName": "Fallback_Task",
+            "type": "DialogIntent",
+            "entities": [],
+            "language": "en"
+        },
+        {
+            "_id": "6318a3fa7bd43af5bc1e8a59",
+            "taskId": "dc-18143780-0a67-50f6-8ae8-563bfd39ae50",
+            "sentence": "help me with this",
+            "taskName": "Fallback_Task",
+            "type": "DialogIntent",
+            "entities": [],
+            "language": "en"
+        },
+        {
+            "_id": "6318a408d4b90151c1bad02d",
+            "taskId": "dc-18143780-0a67-50f6-8ae8-563bfd39ae50",
+            "sentence": "i can not fix this",
+            "taskName": "Fallback_Task",
+            "type": "DialogIntent",
+            "entities": [],
+            "language": "en"
+        },
+        {
+            "_id": "6318a42e349be577c180f48f",
+            "taskId": "dc-18143780-0a67-50f6-8ae8-563bfd39ae50",
+            "sentence": "unable to find the fix",
+            "taskName": "Fallback_Task",
+            "type": "DialogIntent",
+            "entities": [],
+            "language": "en"
+        },
+        {
+            "_id": "6318a454d5320e51f4d83162",
+            "taskId": "dc-18143780-0a67-50f6-8ae8-563bfd39ae50",
+            "sentence": "I can not fix this issue without seeing it",
+            "taskName": "Fallback_Task",
+            "type": "DialogIntent",
+            "entities": [],
+            "language": "en"
+        },
+        {
+            "_id": "6318a468b2515df56e3f8c54",
+            "taskId": "dc-18143780-0a67-50f6-8ae8-563bfd39ae50",
+            "sentence": "i can not understand what you are saying",
+            "taskName": "Fallback_Task",
+            "type": "DialogIntent",
+            "entities": [],
+            "language": "en"
+        },
+        {
+            "_id": "6318a48234a87a51d6e1b149",
+            "taskId": "dc-18143780-0a67-50f6-8ae8-563bfd39ae50",
+            "sentence": "unable to fetch inforations",
+            "taskName": "Fallback_Task",
+            "type": "DialogIntent",
+            "entities": [],
+            "language": "en"
+        },
+        {
+            "_id": "6318a51934a87a51d6e1b734",
+            "taskId": "dc-18143780-0a67-50f6-8ae8-563bfd39ae50",
+            "sentence": "why can't you help",
+            "taskName": "Fallback_Task",
+            "type": "DialogIntent",
+            "entities": [],
+            "language": "en"
+        },
+        {
+            "_id": "6318a52affd8e7f5a121cf31",
+            "taskId": "dc-18143780-0a67-50f6-8ae8-563bfd39ae50",
+            "sentence": "are you unable to fix",
+            "taskName": "Fallback_Task",
+            "type": "DialogIntent",
+            "entities": [],
+            "language": "en"
+        },
+        {
+            "_id": "6318a548e9c2cda88a791f8e",
+            "taskId": "dc-18143780-0a67-50f6-8ae8-563bfd39ae50",
+            "sentence": "sorry to get you stuck",
+            "taskName": "Fallback_Task",
+            "type": "DialogIntent",
+            "entities": [],
+            "language": "en"
+        },
+        {
+            "_id": "6318a5d9777dad7d60223c5b",
+            "taskId": "dc-332386dd-bf69-5580-b563-79dcc674197f",
+            "sentence": "phone get slower, I think i am hacked",
+            "taskName": "hacked",
+            "type": "DialogIntent",
+            "entities": [],
+            "language": "en"
+        }
+    ],
     "koraResponses": [],
     "customTemplates": [],
     "mlParams": [
@@ -3528,8 +3858,8 @@
         ],
         "subTasks": {
             "dialogs": [
-                "dg-efdd8259-ac5e-5c30-bcc0-ec40b6d3b8a7",
                 "dg-5cbe42ea-9c5e-5b3c-b2fa-ebcde8cef262",
+                "dg-efdd8259-ac5e-5c30-bcc0-ec40b6d3b8a7",
                 "dg-c25ce06d-1cdf-5996-b6d5-aeca87b9a6f2"
             ],
             "alerts": [],
@@ -3541,5 +3871,5 @@
     },
     "environmentVersionInfo": "9.1.7",
     "traits": [],
-    "encryptedHash": "667486288b94d1a442ea3a4436135235"
+    "encryptedHash": "453cd9fe76e22398f592a917b5cd4a60"
 }
