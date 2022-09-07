@@ -1,0 +1,3545 @@
+{
+    "_id": "st-e61d04dd-33f0-5ac9-b625-e0e33b74d1c7",
+    "refId": "16e9f4b8-a134-5dad-a10c-68473f8ca078",
+    "notifyUserViaEmail": true,
+    "purpose": "customer",
+    "hasUserEndpoint": false,
+    "offKoraConfirmation": false,
+    "skipMakeEditLinks": false,
+    "type": "default",
+    "variables": [],
+    "showInMp": false,
+    "defaultLanguage": "en",
+    "supportedLanguages": [
+        "en"
+    ],
+    "languagePreferences": {
+        "type": "perVolley"
+    },
+    "strict_pii": false,
+    "languageConfigurations": {
+        "en": {
+            "enabled": true
+        }
+    },
+    "channels": [],
+    "vNameSpace": [
+        "ns-a796f294-bf72-57c4-851d-c7c526d6821c"
+    ],
+    "krVNameSpace": [
+        "87c2c744-2dfd-5e88-ac6a-4010f3a5b10a"
+    ],
+    "evVNameSpace": [
+        "87c2c744-2dfd-5e88-ac6a-4010f3a5b10a"
+    ],
+    "color": "#009dab",
+    "enableInputTranslation": false,
+    "multiLingualConfigurations": {
+        "en": {
+            "nluLanguage": "en",
+            "inputTranslation": false,
+            "responseTranslation": false
+        }
+    },
+    "isSmartAssist": false,
+    "sBannerColor": "#009dab",
+    "bBannerColor": "#009dab",
+    "categoryIds": [
+        "451902a073c071463e2fe7f6"
+    ],
+    "class": [],
+    "featured": false,
+    "sendVcf": false,
+    "isNLEnabled": true,
+    "interruptsEnabled": true,
+    "sessionInactiveTime": 900000,
+    "sessionClosureProcess": 1,
+    "skipSessionMessage": false,
+    "isDeflect": false,
+    "languagesToBeIgnored": [],
+    "localeData": {
+        "en": {
+            "name": "CyberBot",
+            "errorCodes": {
+                "pollError": []
+            },
+            "description": "CyberBot",
+            "isSmalltalkMigrated": true,
+            "nlMeta": {
+                "mlUtterances": 0,
+                "patterns": 0,
+                "synonyms": 713
+            },
+            "keywords": [],
+            "synonyms": {
+                "create": [
+                    "new",
+                    "add",
+                    "assemble",
+                    "build",
+                    "compose",
+                    "construct",
+                    "contrive",
+                    "create",
+                    "design",
+                    "generate",
+                    "instantiate",
+                    "invent",
+                    "make",
+                    "manufacture",
+                    "produce",
+                    "synthesize",
+                    "synthetise",
+                    "synthetize",
+                    "write"
+                ],
+                "alter": [
+                    "adjust",
+                    "alter",
+                    "amend",
+                    "renovate",
+                    "revise",
+                    "modify",
+                    "revamp",
+                    "reshape",
+                    "reconstruct",
+                    "recast",
+                    "change",
+                    "update"
+                ],
+                "add": [
+                    "insert",
+                    "append",
+                    "attach",
+                    "add"
+                ],
+                "delete": [
+                    "abolish",
+                    "annihilate",
+                    "delete",
+                    "demolish",
+                    "destroy",
+                    "efface",
+                    "erase",
+                    "eliminate",
+                    "obliterate"
+                ],
+                "get": [
+                    "find",
+                    "garner",
+                    "gather",
+                    "get",
+                    "grab",
+                    "obtain",
+                    "retrieve",
+                    "show",
+                    "display",
+                    "give"
+                ],
+                "list": [
+                    "enumerate",
+                    "list",
+                    "name",
+                    "tell"
+                ],
+                "comment": [
+                    "comment",
+                    "annotate",
+                    "describe"
+                ],
+                "pick": [
+                    "choose",
+                    "decide",
+                    "handpick",
+                    "pick",
+                    "prefer",
+                    "recommend",
+                    "select",
+                    "suggest"
+                ],
+                "request": [
+                    "ask",
+                    "request"
+                ],
+                "post": [
+                    "post",
+                    "put",
+                    "place",
+                    "submit"
+                ],
+                "top": [
+                    "top",
+                    "valuable",
+                    "best",
+                    "foremost",
+                    "peak"
+                ],
+                "recent": [
+                    "recent",
+                    "new"
+                ],
+                "customer": [
+                    "customer",
+                    "client",
+                    "user"
+                ],
+                "info": [
+                    "detail",
+                    "specific",
+                    "information",
+                    "info"
+                ],
+                "rank": [
+                    "rating",
+                    "rate",
+                    "rank"
+                ],
+                "item": [
+                    "stock",
+                    "inventory",
+                    "item",
+                    "product"
+                ],
+                "~you": [
+                    "you",
+                    "u"
+                ],
+                "~your": [
+                    "Your"
+                ],
+                "~emohowzit": [
+                    "&lt; how is it going &gt;",
+                    "&lt; whazzupp &gt;",
+                    "&lt; ca va &gt;",
+                    "&lt; what'up &gt;",
+                    "&lt; how are u doing &gt;",
+                    "&lt; how_are_you &gt;",
+                    "&lt; how have u been today &gt;",
+                    "&lt; watsup &gt;",
+                    "&lt; how is by you &gt;",
+                    "&lt; what is going on &gt;",
+                    "&lt; how have u been doing today &gt;",
+                    "&lt; how do u do &gt;",
+                    "&lt; is everything OK &gt;",
+                    "&lt; how are you today &gt;",
+                    "&lt; how is your day &gt;",
+                    "&lt; how_are_u &gt;",
+                    "&lt; how have u been doing &gt;",
+                    "&lt; how goes things &gt;",
+                    "&lt; how is life &gt;",
+                    "&lt; how_have_u_been_doing &gt;",
+                    "&lt; howzit &gt;",
+                    "&lt; how goes &gt;",
+                    "&lt; how are u today &gt;",
+                    "&lt; heya &gt;",
+                    "&lt; how_do_u_do &gt;",
+                    "&lt; what is the word &gt;",
+                    "&lt; how have u been &gt;",
+                    "&lt; what up &gt;",
+                    "&lt; what is happening &gt;",
+                    "&lt; whatcha upto &gt;",
+                    "&lt; how are you &gt;",
+                    "&lt; what is up &gt;",
+                    "&lt; how you feeling &gt;",
+                    "&lt; how are things &gt;",
+                    "&lt; comment est vous &gt;",
+                    "&lt; how_are_u_doing &gt;",
+                    "&lt; how are u doing today &gt;",
+                    "&lt; how are u &gt;",
+                    "&lt; is everything alright &gt;",
+                    "&lt; what is the latest word &gt;",
+                    "&lt; how is everything &gt;",
+                    "&lt; how have you been doing &gt;",
+                    "&lt; what is up today &gt;",
+                    "&lt; wassup &gt;",
+                    "&lt; what is new &gt;",
+                    "&lt; how you doing &gt;",
+                    "&lt; how do you do &gt;",
+                    "&lt; how goes it &gt;",
+                    "&lt; how is tricks &gt;",
+                    "&lt; how have you been &gt;",
+                    "&lt; how_have_u_been &gt;",
+                    "&lt; comment ca va &gt;"
+                ],
+                "~emohello": [
+                    "&lt; good to meet you &gt;",
+                    "&lt; greetings &gt;",
+                    "&lt; konban wa &gt;",
+                    "&lt; nice to see you &gt;",
+                    "&lt; hey there &gt;",
+                    "&lt; top of the morning to you &gt;",
+                    "&lt; nice to meet you &gt;",
+                    "&lt; hella &gt;",
+                    "&lt; Hi &gt;",
+                    "&lt; konbanwa &gt;",
+                    "&lt; mornin' &gt;",
+                    "&lt; hello there &gt;",
+                    "&lt; konnichi wa &gt;",
+                    "&lt; cheers &gt;",
+                    "&lt; salutations &gt;",
+                    "&lt; good morning &gt;",
+                    "&lt; top of the morning &gt;",
+                    "&lt; goodevening &gt;",
+                    "&lt; goodmorning &gt;",
+                    "&lt; aloha &gt;",
+                    "&lt; welcome &gt;",
+                    "&lt; hello &gt;",
+                    "&lt; ohayou &gt;",
+                    "&lt; konnichiwa &gt;",
+                    "&lt; hi there &gt;",
+                    "&lt; hello and welcome &gt;",
+                    "&lt; goodday &gt;",
+                    "&lt; hi_there &gt;",
+                    "&lt; good day &gt;",
+                    "&lt; hey you &gt;",
+                    "&lt; hallo &gt;",
+                    "&lt; goodafternoon &gt;",
+                    "&lt; howdy &gt;",
+                    "&lt; hey &gt;",
+                    "&lt; gidday &gt;",
+                    "&lt; hola &gt;",
+                    "&lt; hiya &gt;",
+                    "&lt; hi &gt;",
+                    "&lt; hi you all &gt;",
+                    "&lt; hey , there &gt;",
+                    "&lt; good evening &gt;",
+                    "&lt; good to see you again &gt;",
+                    "&lt; good afternoon &gt;",
+                    "&lt; hii &gt;",
+                    ":wave:",
+                    ":pray:",
+                    ":right-facing_fist:",
+                    ":handshake:",
+                    ":left-facing_fist:"
+                ],
+                "~emohappy": [
+                    "&lt; whoopie &gt;",
+                    "&lt; nice_one &gt;",
+                    "&lt; yowzit &gt;",
+                    "&lt; :D &gt;",
+                    "&lt; congrats &gt;",
+                    "&lt; boo-yah &gt;",
+                    "&lt; :} &gt;",
+                    "&lt; :] &gt;",
+                    "&lt; hooray &gt;",
+                    "&lt; in-fucking-credible &gt;",
+                    "&lt; yippy &gt;",
+                    "&lt; :) &gt;",
+                    "&lt; attaboy &gt;",
+                    "&lt; congratulations &gt;",
+                    "&lt; hip_hip_hooray &gt;",
+                    "&lt; congratudolences &gt;",
+                    "&lt; attagirl &gt;",
+                    "&lt; bravo &gt;",
+                    "&lt; yahoo &gt;",
+                    "&lt; good_for_you &gt;",
+                    "&lt; nice &gt;",
+                    ":grinning:",
+                    ":grin:",
+                    ":joy:",
+                    ":smiley:",
+                    ":smile:",
+                    ":sweat_smile:",
+                    ":laughing:",
+                    ":satisfied:",
+                    ":wink:",
+                    ":blush:",
+                    ":yum:",
+                    ":heart_eyes:",
+                    ":kissing:",
+                    ":kissing_heart:",
+                    ":stuck_out_tongue:",
+                    ":stuck_out_tongue_winking_eye:",
+                    ":stuck_out_tongue_closed_eyes:",
+                    ":smile_cat:",
+                    ":joy_cat:",
+                    ":smiley_cat:",
+                    ":heart_eyes_cat:",
+                    ":i_love_you_hand_sign:",
+                    ":star-struck:",
+                    ":grinning_face_with_star_eyes:"
+                ],
+                "~positiveackwords": [
+                    "&lt; awesome &gt;",
+                    "&lt; good &gt;",
+                    "&lt; fair_enough &gt;",
+                    "~helpwords",
+                    "&lt; cool &gt;",
+                    "&lt; great &gt;",
+                    ":relieved:",
+                    ":ok_hand:",
+                    ":hugging_face:",
+                    ":woman-bowing:",
+                    ":man-bowing:",
+                    ":bow:",
+                    ":the_horns:"
+                ],
+                "~helpwords": [
+                    "&lt; it_help &gt;",
+                    "&lt; a_help &gt;"
+                ],
+                "~ibedone": [
+                    "&lt; that_is_it &gt;",
+                    "&lt; I_am_done &gt;",
+                    "&lt; it_for_now &gt;",
+                    "~done",
+                    "&lt; that_is_all &gt;"
+                ],
+                "~done": [
+                    "&lt; Done &gt;",
+                    ":+1:",
+                    ":thumbsup:"
+                ],
+                "~emogoodbye": [
+                    "&lt; good_bye &gt;",
+                    "&lt; call_it_a_night &gt;",
+                    "&lt; I_have_to_run &gt;",
+                    "&lt; have_a_better_ &gt;",
+                    "&lt; take_care_of_yourself &gt;",
+                    "&lt; bai_bai &gt;",
+                    "&lt; it_was_nice_to_meet_you &gt;",
+                    "&lt; time_to_be &gt;",
+                    "&lt; have_to_leave &gt;",
+                    "&lt; see_you &gt;",
+                    "&lt; I_need_to_go &gt;",
+                    "&lt; ttyl &gt;",
+                    "&lt; gator &gt;",
+                    "&lt; have_to_stop &gt;",
+                    "&lt; have_a_good_weekend &gt;",
+                    "&lt; later_ &gt;",
+                    "&lt; goodbye &gt;",
+                    "&lt; I_have_to_leave_you &gt;",
+                    "&lt; have_a_great_evening &gt;",
+                    "&lt; good-by &gt;",
+                    "&lt; see_you_later_,_aligator &gt;",
+                    "&lt; Goodnight &gt;",
+                    "&lt; later &gt;",
+                    "&lt; got_to_go &gt;",
+                    "&lt; byebye &gt;",
+                    "&lt; I_am_late_for &gt;",
+                    "&lt; till_we_meet_again &gt;",
+                    "&lt; cya &gt;",
+                    "&lt; until_next_time &gt;",
+                    "&lt; l8r &gt;",
+                    "&lt; gn &gt;",
+                    "&lt; I_will_be_back &gt;",
+                    "&lt; goodnight &gt;",
+                    "&lt; till_next_time &gt;",
+                    "&lt; cu_through_with_you_for_now &gt;",
+                    "&lt; gnstdltbbb &gt;",
+                    "&lt; au_revoir &gt;",
+                    "&lt; bbfn &gt;",
+                    "&lt; bye_bye &gt;",
+                    "&lt; god_bless_you &gt;",
+                    "&lt; l8r_l8r &gt;",
+                    "&lt; toodeloo &gt;",
+                    "&lt; you_all_come_back_now &gt;",
+                    "&lt; farewell &gt;",
+                    "&lt; adieu &gt;",
+                    "&lt; have_a_great_weekend &gt;",
+                    "&lt; see_you_later &gt;",
+                    "&lt; un &gt;",
+                    "&lt; ttfn &gt;",
+                    "&lt; I_must_go &gt;",
+                    "&lt; see_you_soon &gt;",
+                    "&lt; have_a_great_day &gt;",
+                    "&lt; cyal8r &gt;",
+                    "&lt; nighty-night &gt;",
+                    "&lt; logoff &gt;",
+                    "&lt; through_for_now_see_you_later &gt;",
+                    "&lt; I_need_to_go_now &gt;",
+                    "&lt; bye &gt;",
+                    "&lt; toodles &gt;",
+                    "&lt; g_bye &gt;",
+                    "&lt; have_to_boogie &gt;",
+                    "&lt; sleep_tight &gt;",
+                    "&lt; be_seeing_you &gt;",
+                    "&lt; auf_wiedersehen &gt;",
+                    "&lt; talk_to_you_later &gt;",
+                    "&lt; do_not_let_the_bed_bugs_bite &gt;",
+                    "&lt; take_it_easy &gt;",
+                    "&lt; ciao &gt;",
+                    "&lt; it_was_good_meeting_you &gt;",
+                    "&lt; ta-ta-for-now &gt;",
+                    "&lt; sayonara &gt;",
+                    "&lt; I_am_leaving &gt;",
+                    "&lt; bfn &gt;",
+                    "&lt; I_want_to_go_now &gt;",
+                    "&lt; have_a_nice_day &gt;",
+                    "&lt; cheerio &gt;",
+                    "&lt; have_to_get_going &gt;",
+                    "&lt; have_a_nice_night &gt;",
+                    "&lt; see_you_tomorrow &gt;",
+                    "&lt; so_long &gt;",
+                    "&lt; good_night &gt;",
+                    "&lt; have_a_good_evening &gt;",
+                    "&lt; have_to_go &gt;",
+                    "&lt; till_another_time &gt;",
+                    "&lt; good-bye &gt;",
+                    "&lt; catch-you-later &gt;",
+                    "&lt; gtg &gt;",
+                    "&lt; another_time &gt;",
+                    "&lt; take_care &gt;",
+                    "&lt; have_to_quit &gt;",
+                    "&lt; it_was_good_to_meet_you &gt;",
+                    "&lt; it_was_nice_meeting_you &gt;",
+                    "&lt; have_a_good_one &gt;",
+                    "&lt; adios &gt;",
+                    "&lt; I_must_go_now &gt;",
+                    "&lt; tnt &gt;",
+                    "&lt; logout &gt;",
+                    "&lt; got_to_run &gt;",
+                    "&lt; ta_ta &gt;",
+                    "&lt; nite-nite &gt;",
+                    "&lt; toodle_pip &gt;",
+                    "&lt; time_to_go &gt;"
+                ],
+                "~yes": [
+                    "&lt; ay &gt;",
+                    "&lt; so will you &gt;",
+                    "&lt; nod &gt;",
+                    "&lt; my pleasure &gt;",
+                    "&lt; I guess so &gt;",
+                    "&lt; okey &gt;",
+                    "&lt; especially &gt;",
+                    "&lt; absolutely &gt;",
+                    "&lt; one hundred percent &gt;",
+                    "&lt; could not have said it better &gt;",
+                    "&lt; most certainly &gt;",
+                    "&lt; mostly &gt;",
+                    "&lt; exactly &gt;",
+                    "&lt; but of course &gt;",
+                    "&lt; go ahead &gt;",
+                    "&lt; whatever &gt;",
+                    "&lt; hell yeah &gt;",
+                    "&lt; continue &gt;",
+                    "&lt; I would say so &gt;",
+                    "&lt; uh-huh &gt;",
+                    "&lt; affirmative &gt;",
+                    "&lt; apparently &gt;",
+                    "&lt; sure thing &gt;",
+                    "&lt; will do &gt;",
+                    "&lt; right &gt;",
+                    "&lt; he is &gt;",
+                    "&lt; without a doubt &gt;",
+                    "&lt; yeah sure &gt;",
+                    "&lt; righto &gt;",
+                    "&lt; ack &gt;",
+                    "&lt; undoubtedly &gt;",
+                    "&lt; please do &gt;",
+                    "&lt; yip &gt;",
+                    "&lt; could be &gt;",
+                    "&lt; damn good &gt;",
+                    "&lt; very well indeed &gt;",
+                    "&lt; how true &gt;",
+                    "&lt; I can see that &gt;",
+                    "&lt; aye &gt;",
+                    "&lt; for sure &gt;",
+                    "&lt; highly likely &gt;",
+                    "&lt; that is correct &gt;",
+                    "&lt; naturally &gt;",
+                    "&lt; okay &gt;",
+                    "&lt; do it &gt;",
+                    "&lt; supposedly &gt;",
+                    "&lt; definitely &gt;",
+                    "&lt; that is alright &gt;",
+                    "&lt; you may be right &gt;",
+                    "&lt; they are &gt;",
+                    "&lt; yay &gt;",
+                    "&lt; yes please &gt;",
+                    "&lt; accepted &gt;",
+                    "&lt; I am certain &gt;",
+                    "&lt; yep &gt;",
+                    "&lt; I give consent &gt;",
+                    "&lt; you bet &gt;",
+                    "&lt; well perhaps you are right &gt;",
+                    "&lt; righty-ho &gt;",
+                    "&lt; nods &gt;",
+                    "&lt; let us try &gt;",
+                    "&lt; I totally agree &gt;",
+                    "&lt; only just &gt;",
+                    "&lt; we should try &gt;",
+                    "&lt; fully &gt;",
+                    "&lt; you could say that &gt;",
+                    "&lt; constantly &gt;",
+                    "&lt; unquestionably &gt;",
+                    "&lt; we do &gt;",
+                    "&lt; all right &gt;",
+                    "&lt; certainly &gt;",
+                    "&lt; no objections &gt;",
+                    "&lt; yeah definitely &gt;",
+                    "&lt; right , &gt;",
+                    "&lt; she does &gt;",
+                    "&lt; I consent &gt;",
+                    "&lt; da &gt;",
+                    "&lt; you are right &gt;",
+                    "&lt; extremely &gt;",
+                    "&lt; very well &gt;",
+                    "&lt; makes sense &gt;",
+                    "&lt; in this case &gt;",
+                    "&lt; indubitably &gt;",
+                    "&lt; fantastic &gt;",
+                    "&lt; that is good &gt;",
+                    "&lt; with pleasure &gt;",
+                    "&lt; right on &gt;",
+                    "&lt; yea &gt;",
+                    "&lt; thumbs up &gt;",
+                    "&lt; beyond a doubt &gt;",
+                    "&lt; I do &gt;",
+                    "&lt; it is highly likely &gt;",
+                    "&lt; two thumbs up &gt;",
+                    "&lt; wonderful &gt;",
+                    "&lt; yes &gt;",
+                    "&lt; you may &gt;",
+                    "&lt; I did &gt;",
+                    "&lt; correct &gt;",
+                    "&lt; make it so &gt;",
+                    "&lt; o.k. &gt;",
+                    "&lt; I am sure &gt;",
+                    "&lt; surely &gt;",
+                    "&lt; approved &gt;",
+                    "&lt; O.K. &gt;",
+                    "&lt; okey dokey &gt;",
+                    "&lt; no problem &gt;",
+                    "&lt; oh okay &gt;",
+                    "&lt; yuppers &gt;",
+                    "&lt; OK &gt;",
+                    "&lt; she is &gt;",
+                    "&lt; always &gt;",
+                    "&lt; damn straight &gt;",
+                    "&lt; I am pleased to &gt;",
+                    "&lt; true &gt;",
+                    "&lt; yeppers &gt;",
+                    "&lt; he does &gt;",
+                    "&lt; I think so &gt;",
+                    "&lt; we can try &gt;",
+                    "&lt; oh alright &gt;",
+                    "&lt; probably &gt;",
+                    "&lt; a'right &gt;",
+                    "&lt; I can believe that &gt;",
+                    "&lt; well maybe you are right &gt;",
+                    "&lt; it will be a pleasure to &gt;",
+                    "&lt; positively &gt;",
+                    "&lt; no doubt &gt;",
+                    "&lt; that is right &gt;",
+                    "&lt; be my guest &gt;",
+                    "&lt; I will drink to that &gt;",
+                    "&lt; fortune smiles on that &gt;",
+                    "&lt; it would be a pleasure &gt;",
+                    "&lt; by all means &gt;",
+                    "&lt; right brah &gt;",
+                    "&lt; delighted &gt;",
+                    "&lt; abso-fucking-lutely &gt;",
+                    "&lt; right-o &gt;",
+                    "&lt; they do &gt;",
+                    "&lt; precisely &gt;",
+                    "&lt; thats great yes &gt;",
+                    "&lt; I am listening &gt;",
+                    "&lt; evidently &gt;",
+                    "&lt; thats great , yes &gt;",
+                    "&lt; sounds wonderful &gt;",
+                    "&lt; oh sure &gt;",
+                    "&lt; you may have a point &gt;",
+                    "&lt; a'ight &gt;",
+                    "&lt; I agree &gt;",
+                    "&lt; alright &gt;",
+                    "&lt; 'kay &gt;",
+                    "&lt; it does &gt;",
+                    "&lt; ah yes &gt;",
+                    "&lt; we did &gt;",
+                    "&lt; I am &gt;",
+                    "&lt; si &gt;",
+                    "&lt; I can believe it &gt;",
+                    "&lt; I can try &gt;",
+                    "&lt; ok &gt;",
+                    "&lt; of course &gt;",
+                    "&lt; most assuredly &gt;",
+                    "&lt; agreed &gt;",
+                    "&lt; d'accord &gt;",
+                    "&lt; I understand &gt;",
+                    "&lt; generally &gt;",
+                    "&lt; shure &gt;",
+                    "&lt; yeah &gt;",
+                    "&lt; go ahead with &gt;",
+                    "&lt; sure &gt;",
+                    "&lt; it is &gt;",
+                    "&lt; yup &gt;",
+                    "&lt; yeh &gt;",
+                    "&lt; it will be my pleasure to &gt;",
+                    "&lt; bring it on &gt;",
+                    "&lt; yes really &gt;",
+                    "&lt; I give my consent &gt;",
+                    "&lt; I could not agree with you more &gt;",
+                    "&lt; touche &gt;",
+                    "&lt; perfect &gt;",
+                    "&lt; indeed &gt;",
+                    "&lt; fine &gt;",
+                    "&lt; confirmed &gt;",
+                    "&lt; yah &gt;",
+                    "&lt; i guess &gt;",
+                    "&lt; totally &gt;",
+                    "&lt; completely &gt;",
+                    "&lt; can not argue with that &gt;",
+                    "&lt; indefinitely &gt;",
+                    "&lt; accept &gt;",
+                    "&lt; I have no objection &gt;",
+                    ":thumbsup:",
+                    ":+1:"
+                ],
+                "~no": [
+                    "&lt; it is not &gt;",
+                    "&lt; naah &gt;",
+                    "&lt; it is unlikely &gt;",
+                    "&lt; you must be joking &gt;",
+                    "&lt; there is no reason to think so &gt;",
+                    "&lt; not really &gt;",
+                    "&lt; yeah yeah &gt;",
+                    "&lt; not to speak of &gt;",
+                    "&lt; disagree &gt;",
+                    "&lt; he does not &gt;",
+                    "&lt; naw &gt;",
+                    "&lt; not on your life &gt;",
+                    "&lt; I dont think so &gt;",
+                    "&lt; you can not be serious &gt;",
+                    "&lt; that is impossible &gt;",
+                    "&lt; she is not &gt;",
+                    "&lt; I am not sure I agree &gt;",
+                    "&lt; we do not &gt;",
+                    "&lt; none &gt;",
+                    "&lt; not many &gt;",
+                    "&lt; she does not &gt;",
+                    "&lt; not by any means &gt;",
+                    "&lt; you have got that wrong &gt;",
+                    "&lt; never mind &gt;",
+                    "&lt; I do not &gt;",
+                    "&lt; no I am fine &gt;",
+                    "&lt; nope &gt;",
+                    "&lt; I would not &gt;",
+                    "&lt; bollocks &gt;",
+                    "&lt; come off it &gt;",
+                    "&lt; I do not believe so &gt;",
+                    "&lt; seldom &gt;",
+                    "&lt; no way &gt;",
+                    "&lt; impossible &gt;",
+                    "&lt; you are winding me up &gt;",
+                    "&lt; none of them &gt;",
+                    "&lt; not likely &gt;",
+                    "&lt; noo &gt;",
+                    "&lt; do not be silly &gt;",
+                    "&lt; I think not &gt;",
+                    "&lt; naaah &gt;",
+                    "&lt; neah &gt;",
+                    "&lt; that is unbelievable &gt;",
+                    "&lt; fortune does not smile on that &gt;",
+                    "&lt; I am afraid not &gt;",
+                    "&lt; I am not sure that I &gt;",
+                    "&lt; on the contrary &gt;",
+                    "&lt; no . &gt;",
+                    "&lt; I just do not get it &gt;",
+                    "&lt; if you say so &gt;",
+                    "&lt; uhuh &gt;",
+                    "&lt; unlikely &gt;",
+                    "&lt; not especially &gt;",
+                    "&lt; do not be ridiculous &gt;",
+                    "&lt; unbelievable &gt;",
+                    "&lt; not very often &gt;",
+                    "&lt; I could not disagree more &gt;",
+                    "&lt; you are kidding &gt;",
+                    "&lt; neither of these &gt;",
+                    "&lt; not much &gt;",
+                    "&lt; iie &gt;",
+                    "&lt; me thinks not &gt;",
+                    "&lt; of course not &gt;",
+                    "&lt; not a chance &gt;",
+                    "&lt; doubtful &gt;",
+                    "&lt; not that I know of &gt;",
+                    "&lt; rubbish &gt;",
+                    "&lt; none of these &gt;",
+                    "&lt; not at the moment &gt;",
+                    "&lt; I do not want to &gt;",
+                    "&lt; by no means &gt;",
+                    "&lt; negative &gt;",
+                    "&lt; get out &gt;",
+                    "&lt; no chance &gt;",
+                    "&lt; but of course not &gt;",
+                    "&lt; no &gt;",
+                    "&lt; hardly &gt;",
+                    "&lt; not by a long shot &gt;",
+                    "&lt; false &gt;",
+                    "&lt; fat chance &gt;",
+                    "&lt; not exactly &gt;",
+                    "&lt; but no &gt;",
+                    "&lt; I disagree &gt;",
+                    "&lt; you are dead wrong &gt;",
+                    "&lt; it does not &gt;",
+                    "&lt; improbable &gt;",
+                    "&lt; not particularly &gt;",
+                    "&lt; nah &gt;",
+                    "&lt; no can do &gt;",
+                    "&lt; hell no &gt;",
+                    "&lt; you have got to be kidding &gt;",
+                    "&lt; no I am ok &gt;",
+                    "&lt; not a snowball 's chance in hell &gt;",
+                    "&lt; nuts to you &gt;",
+                    "&lt; did not &gt;",
+                    "&lt; I am afraid I do not agree &gt;",
+                    "&lt; you are joking &gt;",
+                    "&lt; no - &gt;",
+                    "&lt; I doubt it &gt;",
+                    "&lt; uh-uh &gt;",
+                    "&lt; do not be stupid &gt;",
+                    "&lt; not in a million years &gt;",
+                    "&lt; no I am good &gt;",
+                    "&lt; not at all &gt;",
+                    "&lt; they do not &gt;",
+                    "&lt; most certainly not &gt;",
+                    "&lt; I do not think so &gt;",
+                    "&lt; not to my knowledge &gt;",
+                    "&lt; you must be kidding &gt;",
+                    "&lt; I am afraid I disagree with you &gt;",
+                    "&lt; not any of them &gt;",
+                    "&lt; unfortunately not &gt;",
+                    "&lt; I refuse &gt;",
+                    "&lt; oh come on &gt;",
+                    "&lt; thinks not &gt;",
+                    "&lt; I will not &gt;",
+                    "&lt; no thank you &gt;",
+                    "&lt; inconceivable &gt;",
+                    "&lt; horse hockey &gt;",
+                    "&lt; uh-hu &gt;",
+                    "&lt; that is rubbish &gt;",
+                    "&lt; get real &gt;",
+                    "&lt; you are having me on &gt;",
+                    "&lt; I do not believe you &gt;",
+                    "&lt; you are not serious &gt;",
+                    "&lt; strange &gt;",
+                    "&lt; nay &gt;",
+                    "&lt; I do not believe it &gt;",
+                    "&lt; no thanks &gt;",
+                    "&lt; surely not &gt;",
+                    "&lt; not so much &gt;",
+                    "&lt; no , &gt;",
+                    "&lt; they are not &gt;",
+                    "&lt; I do not agree &gt;",
+                    "&lt; does not seem likely &gt;",
+                    "&lt; neither &gt;",
+                    "&lt; do not be absurd &gt;",
+                    "&lt; never &gt;",
+                    "&lt; it is not possible &gt;",
+                    "&lt; he is not &gt;",
+                    "&lt; does not seem possible &gt;",
+                    "&lt; not sure &gt;",
+                    "&lt; no ! &gt;",
+                    "&lt; not a prayer &gt;",
+                    ":thumbsdown:",
+                    ":-1:",
+                    ":man-gesturing-no:",
+                    ":woman-gesturing-no:"
+                ],
+                "checkstatus": [
+                    "hacked",
+                    "i'm hacked",
+                    "i am hacked",
+                    "bug",
+                    "hack"
+                ]
+            },
+            "confidenceConfigs": [
+                {
+                    "mode": "ml",
+                    "minThreshold": 0.3,
+                    "maxThreshold": 80,
+                    "isActive": true,
+                    "exactMatchThreshold": 95
+                },
+                {
+                    "mode": "faq",
+                    "minThreshold": 60,
+                    "maxThreshold": 80,
+                    "isActive": true,
+                    "taskMatchTolerance": 5,
+                    "exactMatchThreshold": 95,
+                    "suggestionsCount": 3,
+                    "pathCoverage": 50,
+                    "longResponses": {
+                        "readMore": true
+                    },
+                    "useBotSynonyms": false,
+                    "enPatternLemma": "wordnet"
+                },
+                {
+                    "mode": "cs",
+                    "minThreshold": 60,
+                    "maxThreshold": 80,
+                    "isActive": true,
+                    "wordCoverage": 60,
+                    "isFMThreshold": false
+                },
+                {
+                    "mode": "rr",
+                    "isActive": true,
+                    "threshold": 0,
+                    "minThreshold": 0,
+                    "maxThreshold": 0,
+                    "taskMatchTolerance": 2,
+                    "isPreferDefinitiveMatch": true,
+                    "intentRescoring": true
+                }
+            ]
+        }
+    },
+    "interruptOptions": {
+        "interruptsEnabled": true,
+        "numTasksToHold": "1",
+        "type": {
+            "option": "developer",
+            "message": ""
+        },
+        "holdUxOptions": {
+            "option": "discardCurrTaskNoNotify",
+            "message": ""
+        },
+        "faqBehaviour": "respondAndResume",
+        "smallTalkBehaviour": "respondAndResume",
+        "showAmbiguous": true
+    },
+    "detectMultiIntent": false,
+    "assignAllChildBots": true,
+    "recentBotLimit": 5,
+    "isCsMatchEnabled": false,
+    "defaultDialogId": "73c0c9bb-db86-5d3d-a1d9-32ebc839fe18",
+    "botSentimentEvents": [],
+    "enableNegativePatterns": false,
+    "advancedNLSettings": [
+        {
+            "_id": "anls-f3ec71ef-5bb3-50ac-9e98-223ded1832fa",
+            "isCustom": false,
+            "type": 1,
+            "configurationKeyName": "Multiple_Intent_Models",
+            "nlpEngine": "ML",
+            "configurationValue": true,
+            "requiresTraining": false,
+            "state": "configured",
+            "streamId": "st-e61d04dd-33f0-5ac9-b625-e0e33b74d1c7",
+            "language": "en",
+            "refId": "9b3972f6-7d68-5309-be14-b21dec21d03b",
+            "lastModifiedOn": "2022-09-07T02:10:53.805Z",
+            "__v": 0
+        }
+    ],
+    "translationEngines": [],
+    "botEvents": {
+        "INTENT_UNIDENTIFIED": {
+            "enabled": true,
+            "action": "triggerDialog",
+            "task": "73c0c9bb-db86-5d3d-a1d9-32ebc839fe18",
+            "linkedBotStreamId": null,
+            "script": null,
+            "msg": [],
+            "manageFirstMessage": null,
+            "welcomeIvrOptions": null
+        },
+        "WELCOME_MESSAGE_EVENT": {
+            "enabled": true,
+            "action": "triggerDialog",
+            "task": "c58af14f-fc5b-5621-b153-beb435b2b822",
+            "linkedBotStreamId": null,
+            "script": null,
+            "msg": [],
+            "manageFirstMessage": {
+                "greetings": "respondToUserInput",
+                "faq": "respondToUserInput",
+                "task": "respondToUserInput"
+            },
+            "welcomeIvrOptions": null
+        },
+        "ON_CONNECT_EVENT": {
+            "enabled": true,
+            "action": "triggerDialog",
+            "task": "c58af14f-fc5b-5621-b153-beb435b2b822",
+            "linkedBotStreamId": null,
+            "script": null,
+            "msg": [],
+            "manageFirstMessage": null,
+            "welcomeIvrOptions": null
+        },
+        "TASK_FAILURE_EVENT": {
+            "enabled": true,
+            "action": "showMsg",
+            "task": null,
+            "script": ".",
+            "msg": [
+                {
+                    "localeData": {
+                        "en": {
+                            "type": "basic",
+                            "text": "I%20am%20sorry%2C%20something%20went%20wrong%20and%20I%20had%20to%20discard%20your%20task.%20Please%20retry."
+                        }
+                    },
+                    "vNameSpace": [],
+                    "createdBy": "u-f9df201d-ede0-56b1-ad57-027d5e3d290d",
+                    "createdOn": "Wed Sep 07 2022 02:10:53 GMT+0000 (Coordinated Universal Time)",
+                    "streamId": "st-e61d04dd-33f0-5ac9-b625-e0e33b74d1c7",
+                    "channel": "default",
+                    "lModBy": "Wed Sep 07 2022 02:10:53 GMT+0000 (Coordinated Universal Time)",
+                    "lMod": "Wed Sep 07 2022 02:10:53 GMT+0000 (Coordinated Universal Time)",
+                    "__v": 0
+                }
+            ],
+            "welcomeIvrOptions": []
+        }
+    },
+    "actions": [],
+    "alerts": [],
+    "patterns": [
+        {
+            "localeData": {
+                "en": {}
+            },
+            "refId": "6d80d9c7-6fdd-5f99-ad73-1d18aa129655",
+            "taskName": "Fallback_Task",
+            "taskType": "intent",
+            "nodeType": "dialog"
+        },
+        {
+            "localeData": {
+                "en": {}
+            },
+            "refId": "284af91b-10bf-5ec1-8914-21bd252d4557",
+            "taskName": "checkstatus",
+            "taskType": "intent",
+            "nodeType": "dialog"
+        },
+        {
+            "localeData": {
+                "en": {}
+            },
+            "refId": "468e8438-1caa-5691-9eb1-de929a18a6ab",
+            "taskName": "howHack",
+            "taskType": "entity",
+            "nodeType": "dialog"
+        },
+        {
+            "localeData": {
+                "en": {}
+            },
+            "refId": "02a628c2-5044-56c7-b6ec-939063bd110b",
+            "taskName": "getDetails",
+            "taskType": "entity",
+            "nodeType": "dialog"
+        },
+        {
+            "localeData": {
+                "en": {}
+            },
+            "refId": "26ff2180-b195-58ce-9d29-e0053c2840a2",
+            "taskName": "Welcome_Task",
+            "taskType": "intent",
+            "nodeType": "dialog"
+        }
+    ],
+    "dialogComponents": [
+        {
+            "_id": "dc-18143780-0a67-50f6-8ae8-563bfd39ae50",
+            "refId": "6d80d9c7-6fdd-5f99-ad73-1d18aa129655",
+            "name": "Fallback_Task",
+            "piiDataEnabled": false,
+            "serviceNodeType": "custom",
+            "type": "intent",
+            "applyDefaultTemplate": false,
+            "dialogId": "dg-5cbe42ea-9c5e-5b3c-b2fa-ebcde8cef262",
+            "localeData": {
+                "en": {
+                    "intent": "Fallback Task",
+                    "desc": "Fallback Task"
+                }
+            },
+            "entityFields": {
+                "cityAdvanced": []
+            },
+            "spellcorrectThreshold": 0,
+            "preConditions": [],
+            "vNameSpace": [],
+            "useTaskLevelNs": true
+        },
+        {
+            "_id": "dc-1e9ccf0e-6e53-5e96-8e52-6fed1929a2f1",
+            "refId": "55d11dc6-0a3d-5835-8720-a614965f5f0f",
+            "name": "pcHack",
+            "piiDataEnabled": false,
+            "serviceNodeType": "custom",
+            "type": "message",
+            "message": [
+                {
+                    "channel": "default",
+                    "localeData": {
+                        "en": {
+                            "text": "Preventing%20Computer%20Hacking%0A*%20Install%20antivirus%20software%0A*%20Install%20an%20anti-spyware%20package%0A*%20%20Use%20complex%20passwords%0A*%20%20Keep%20your%20OS%2C%20apps%20and%20browser%20up-to-date%0A*%20%20Ignore%20spam%0A*%20%20Secure%20your%20network%0A*%20%20Use%20two-factor%20authentication%0A*%20%20Get%20a%20security%20app%0A%0ATry%20these%20methods%20to%20avoid%20hacking's.",
+                            "type": "basic"
+                        }
+                    }
+                }
+            ],
+            "applyDefaultTemplate": false,
+            "localeData": {
+                "en": {
+                    "label": "pcHack"
+                }
+            },
+            "entityFields": {
+                "cityAdvanced": []
+            },
+            "spellcorrectThreshold": 0,
+            "preConditions": [],
+            "vNameSpace": [],
+            "useTaskLevelNs": true
+        },
+        {
+            "_id": "dc-23a0427a-7d4f-5c12-8f27-fe3c47564647",
+            "refId": "c5d5c963-2d40-5138-952a-4f3fd2c6f495",
+            "name": "forAllHack",
+            "piiDataEnabled": false,
+            "serviceNodeType": "custom",
+            "type": "message",
+            "message": [
+                {
+                    "channel": "default",
+                    "localeData": {
+                        "en": {
+                            "text": "Just%20reebot%20your%20*%7B%7Bcontext.entities.getDetails%7D%7D*%20and%20check%20again.%0AOR%0AIt%20may%20be%20a%20hardware%20issue%20which%20I%20can't%20help%20you%20with.",
+                            "type": "basic"
+                        }
+                    }
+                }
+            ],
+            "applyDefaultTemplate": false,
+            "localeData": {
+                "en": {
+                    "label": "forAllHack"
+                }
+            },
+            "entityFields": {
+                "cityAdvanced": []
+            },
+            "spellcorrectThreshold": 0,
+            "preConditions": [],
+            "vNameSpace": [],
+            "useTaskLevelNs": true
+        },
+        {
+            "_id": "dc-2b5a5642-a38d-54fe-8767-1ca44baeee0b",
+            "refId": "ec902349-020b-5ecf-ad4a-786cb7864221",
+            "name": "networkHack",
+            "piiDataEnabled": false,
+            "serviceNodeType": "custom",
+            "type": "message",
+            "message": [
+                {
+                    "channel": "default",
+                    "localeData": {
+                        "en": {
+                            "text": "Fix%20hacked%20network%0A1.%20Disconnect%20the%20router%20or%20wireless%20gateway%0A2.%20Power%20cycle%20or%20reset%20your%20router%20or%20wireless%20gateway%0A3.%20Change%20the%20password%0A4.%20Update%20the%20firmware%0A%0APreventing%20network%20hack%0A*%20Turn%20on%20automatic%20updates%0A*%20Use%20a%20secure%20password%0A*%20Schedule%20routine%20reboots%0A*%20Disable%20remote%20access%0A*%20Disable%20WPS%0A*%20Change%20the%20default%20SSID%0A*%20Never%20click%20or%20tap%20on%20strange%20links",
+                            "type": "basic"
+                        }
+                    }
+                }
+            ],
+            "applyDefaultTemplate": false,
+            "localeData": {
+                "en": {
+                    "label": "networkHack"
+                }
+            },
+            "entityFields": {
+                "cityAdvanced": []
+            },
+            "spellcorrectThreshold": 0,
+            "preConditions": [],
+            "vNameSpace": [],
+            "useTaskLevelNs": true
+        },
+        {
+            "_id": "dc-2c19b0f8-4a49-56a5-91db-9f1767724e22",
+            "refId": "2a692bc2-0781-5da1-acf3-3e7c253a1286",
+            "name": "confirmDetails",
+            "piiDataEnabled": false,
+            "serviceNodeType": "custom",
+            "type": "dialogAct",
+            "message": [
+                {
+                    "channel": "default",
+                    "localeData": {
+                        "en": {
+                            "text": "Are%20you%20sure%20you%20want%20to%20proceed%20with%20the%20device%20*%7B%7Bcontext.entities.getDetails%7D%7D*%20%3F",
+                            "type": "basic"
+                        }
+                    }
+                }
+            ],
+            "applyDefaultTemplate": true,
+            "localeData": {
+                "en": {
+                    "label": "confirmDetails"
+                }
+            },
+            "entityFields": {
+                "cityAdvanced": []
+            },
+            "spellcorrectThreshold": 0,
+            "preConditions": [],
+            "vNameSpace": [],
+            "useTaskLevelNs": true
+        },
+        {
+            "_id": "dc-332386dd-bf69-5580-b563-79dcc674197f",
+            "refId": "284af91b-10bf-5ec1-8914-21bd252d4557",
+            "name": "checkstatus",
+            "piiDataEnabled": false,
+            "serviceNodeType": "custom",
+            "type": "intent",
+            "applyDefaultTemplate": false,
+            "dialogId": "dg-efdd8259-ac5e-5c30-bcc0-ec40b6d3b8a7",
+            "localeData": {
+                "en": {
+                    "desc": "Checking the status of the user",
+                    "intent": "checkstatus"
+                }
+            },
+            "entityFields": {
+                "cityAdvanced": []
+            },
+            "spellcorrectThreshold": 0,
+            "preConditions": [],
+            "vNameSpace": [],
+            "useTaskLevelNs": true
+        },
+        {
+            "_id": "dc-4cbf6ed5-0b5d-5946-8a8a-2c942dc650e4",
+            "refId": "094eb70b-8cf9-5fc1-9af1-fec25f62ae15",
+            "name": "computerHackConfirm",
+            "piiDataEnabled": false,
+            "serviceNodeType": "custom",
+            "type": "dialogAct",
+            "message": [
+                {
+                    "channel": "default",
+                    "localeData": {
+                        "en": {
+                            "text": "Signs%20that%20your%20computer%20has%20been%20hacked%0A*%20Appearance%20of%20applications%20you%20did%20not%20install%0A*%20Unusual%20disk%20activity%0A*%20Friends%20and%20contacts%20receive%20strange%20messages%20from%20you%0A*%20Passwords%20aren%E2%80%99t%20working%0A*%20Unwanted%20browser%20toolbars%2C%20search%20redirection%20and%20popup%20ads.%0A*%20Unwanted%20software%20installations%0A*%20Strange%20network%20traffic%20patterns%0A%0ADo%20you%20see%20any%20of%20these%20signs%20in%20your%20computer%20%3F",
+                            "type": "basic"
+                        }
+                    }
+                }
+            ],
+            "applyDefaultTemplate": true,
+            "localeData": {
+                "en": {
+                    "label": "computerHackConfirm"
+                }
+            },
+            "entityFields": {
+                "cityAdvanced": []
+            },
+            "spellcorrectThreshold": 0,
+            "preConditions": [],
+            "vNameSpace": [],
+            "useTaskLevelNs": true
+        },
+        {
+            "_id": "dc-63b23101-dfc6-5378-9c97-961119634f4c",
+            "refId": "f60f7a04-b8ce-5dbe-8898-e59233e111d0",
+            "name": "phoneHack",
+            "piiDataEnabled": false,
+            "serviceNodeType": "custom",
+            "type": "message",
+            "message": [
+                {
+                    "channel": "default",
+                    "localeData": {
+                        "en": {
+                            "text": "Stop%20someone%20from%20hacking%20your%20phone%0A*%20Delete%20suspicious%20apps%0A*%20Run%20anti-malware%20software%0A*%20Reset%20your%20phone%0A*%20Change%20your%20passwords%0A%0ATry%20these%20methods%20to%20avoid%20hacking's.%0A!%5Bways%20your%20phone%20hacked%20%5D(https%3A%2F%2Fnow.symassets.com%2Fcontent%2Fdam%2Fnorton%2Fglobal%2Fimages%2Fnon-product%2Fmisc%2Ftlc%2Fways-your-phone-can-be-hacked.png)",
+                            "type": "basic"
+                        }
+                    }
+                }
+            ],
+            "applyDefaultTemplate": false,
+            "localeData": {
+                "en": {
+                    "label": "phoneHack"
+                }
+            },
+            "entityFields": {
+                "cityAdvanced": []
+            },
+            "spellcorrectThreshold": 0,
+            "preConditions": [],
+            "vNameSpace": [],
+            "useTaskLevelNs": true
+        },
+        {
+            "_id": "dc-6b817dfa-6809-55ac-8d85-0b02d579c9e2",
+            "refId": "5f36f332-c7b2-5a76-a0f6-77851c7731fc",
+            "name": "networkHackConfirm",
+            "piiDataEnabled": false,
+            "serviceNodeType": "custom",
+            "type": "dialogAct",
+            "message": [
+                {
+                    "channel": "default",
+                    "localeData": {
+                        "en": {
+                            "text": "Signs%20that%20your%20internet%20has%20been%20hacked%0A*%20You%20get%20a%20ransomware%20message%0A*%20You%20see%20unrecognized%20devices%20on%20your%20network%0A*%20Your%20internet%20speeds%20are%20slower%20than%20snails%0A*%20All%20internet%20browsers%20lead%20to%20the%20same%20site%0A*%20You%20can%E2%80%99t%20log%20in%20to%20your%20router%0A*%20There%E2%80%99s%20strange%20software%20on%20more%20than%20one%20device%0A%0ADo%20you%20see%20any%20of%20these%20signs%20in%20your%20network%20%3F",
+                            "type": "basic"
+                        }
+                    }
+                }
+            ],
+            "applyDefaultTemplate": true,
+            "localeData": {
+                "en": {
+                    "label": "networkHackConfirm"
+                }
+            },
+            "entityFields": {
+                "cityAdvanced": []
+            },
+            "spellcorrectThreshold": 0,
+            "preConditions": [],
+            "vNameSpace": [],
+            "useTaskLevelNs": true
+        },
+        {
+            "_id": "dc-6dab6757-716e-5fba-9091-fb1e2349a0c0",
+            "refId": "d7fcf983-078c-5b64-b6dc-6a5901ad3bdb",
+            "name": "WelcomeMsg",
+            "piiDataEnabled": false,
+            "serviceNodeType": "custom",
+            "type": "message",
+            "message": [
+                {
+                    "channel": "default",
+                    "localeData": {
+                        "en": {
+                            "text": "Hi%2C%20how%20can%20I%20help%20you%3F",
+                            "type": "basic"
+                        }
+                    }
+                },
+                {
+                    "channel": "default",
+                    "localeData": {
+                        "en": {
+                            "text": "Hello%2C%20what%20can%20I%20do%20for%20you",
+                            "type": "basic"
+                        }
+                    }
+                },
+                {
+                    "channel": "default",
+                    "localeData": {
+                        "en": {
+                            "text": "Hi%20I'm%20Cyber%20Assist%2C%20%0Ahow%20can%20I%20help%20you%3F",
+                            "type": "basic"
+                        }
+                    }
+                }
+            ],
+            "applyDefaultTemplate": false,
+            "localeData": {
+                "en": {
+                    "label": "WelcomeMsg"
+                }
+            },
+            "entityFields": {
+                "cityAdvanced": []
+            },
+            "spellcorrectThreshold": 0,
+            "preConditions": [],
+            "vNameSpace": [],
+            "useTaskLevelNs": true
+        },
+        {
+            "_id": "dc-7cad8802-0af2-5cdd-9510-f97f9b10ff06",
+            "refId": "468e8438-1caa-5691-9eb1-de929a18a6ab",
+            "name": "howHack",
+            "piiDataEnabled": false,
+            "serviceNodeType": "custom",
+            "type": "entity",
+            "entityType": "label",
+            "message": [
+                {
+                    "channel": "default",
+                    "localeData": {
+                        "en": {
+                            "text": "How%20did%20you%20find%20that%20your%20%7B%7Bcontext.entities.getDetails%7D%7D%20gets%20hacked%20%3F",
+                            "type": "basic"
+                        }
+                    }
+                }
+            ],
+            "errorMessage": [
+                {
+                    "channel": "default",
+                    "localeData": {
+                        "en": {
+                            "text": "I'm sorry, I am unable to recognize the string. Please enter again.",
+                            "type": "basic"
+                        }
+                    }
+                }
+            ],
+            "applyDefaultTemplate": false,
+            "localeData": {
+                "en": {
+                    "label": "howHack"
+                }
+            },
+            "entityFields": {
+                "cityAdvanced": []
+            },
+            "spellcorrectThreshold": 0,
+            "preConditions": [],
+            "vNameSpace": [],
+            "useTaskLevelNs": true
+        },
+        {
+            "_id": "dc-7f2974c1-7a7f-5978-ac6a-229a99aea14c",
+            "refId": "cfc6f879-a24a-5768-810a-22ddb4373a3f",
+            "name": "phoneHackConfirm",
+            "piiDataEnabled": false,
+            "serviceNodeType": "custom",
+            "type": "dialogAct",
+            "message": [
+                {
+                    "channel": "default",
+                    "localeData": {
+                        "en": {
+                            "text": "5%20warning%20signs%20of%20phone%20hacking%0A*%20Strange%20or%20inappropriate%20pop-ups%0A*%20Texts%20or%20calls%20not%20made%20by%20you%0A*%20Higher%20than%20normal%20data%20usage%0A*%20Apps%20you%20don%E2%80%99t%20recognize%20on%20your%20phone%0A*%20Battery%20draining%20quickly%0A%0ADo%20you%20find%20any%20of%20these%20signs%20in%20your%20phone%20%3F",
+                            "type": "basic"
+                        }
+                    }
+                }
+            ],
+            "applyDefaultTemplate": true,
+            "localeData": {
+                "en": {
+                    "label": "phoneHackConfirm"
+                }
+            },
+            "entityFields": {
+                "cityAdvanced": []
+            },
+            "spellcorrectThreshold": 0,
+            "preConditions": [],
+            "vNameSpace": [],
+            "useTaskLevelNs": true
+        },
+        {
+            "_id": "dc-a3a9413b-52d4-5f5e-a456-f477a9730950",
+            "refId": "02a628c2-5044-56c7-b6ec-939063bd110b",
+            "name": "getDetails",
+            "piiDataEnabled": false,
+            "serviceNodeType": "custom",
+            "type": "entity",
+            "entityType": "label",
+            "message": [
+                {
+                    "channel": "default",
+                    "localeData": {
+                        "en": {
+                            "text": "Please%20tell%20which%20device%20or%20what%20is%20hacked.%0ASo%20that%20we%20can%20help%20you",
+                            "type": "basic"
+                        }
+                    }
+                }
+            ],
+            "errorMessage": [
+                {
+                    "channel": "default",
+                    "localeData": {
+                        "en": {
+                            "text": "I'm sorry, I am unable to recognize the string. Please enter again.",
+                            "type": "basic"
+                        }
+                    }
+                }
+            ],
+            "applyDefaultTemplate": false,
+            "localeData": {
+                "en": {
+                    "label": "getDetails"
+                }
+            },
+            "entityFields": {
+                "cityAdvanced": []
+            },
+            "spellcorrectThreshold": 0,
+            "preConditions": [],
+            "vNameSpace": [],
+            "useTaskLevelNs": true
+        },
+        {
+            "_id": "dc-a7f3df76-88b7-5afb-96ca-ba9ea8259b9c",
+            "refId": "90c71c78-dc6e-58be-af13-eafae7477891",
+            "name": "FallbackMsg",
+            "piiDataEnabled": false,
+            "serviceNodeType": "custom",
+            "type": "message",
+            "message": [
+                {
+                    "channel": "default",
+                    "localeData": {
+                        "en": {
+                            "text": "I could not understand that. Can you rephrase?",
+                            "type": "basic"
+                        }
+                    }
+                },
+                {
+                    "channel": "default",
+                    "localeData": {
+                        "en": {
+                            "text": "I am unable to find an answer. Please try something else.",
+                            "type": "basic"
+                        }
+                    }
+                }
+            ],
+            "applyDefaultTemplate": false,
+            "localeData": {
+                "en": {
+                    "label": "FallbackMsg"
+                }
+            },
+            "entityFields": {
+                "cityAdvanced": []
+            },
+            "spellcorrectThreshold": 0,
+            "preConditions": [],
+            "vNameSpace": [],
+            "useTaskLevelNs": true
+        },
+        {
+            "_id": "dc-b37f5aff-7cd4-5c0a-9cea-32ea451dfd76",
+            "refId": "26ff2180-b195-58ce-9d29-e0053c2840a2",
+            "name": "Welcome_Task",
+            "piiDataEnabled": false,
+            "serviceNodeType": "custom",
+            "type": "intent",
+            "applyDefaultTemplate": false,
+            "dialogId": "dg-c25ce06d-1cdf-5996-b6d5-aeca87b9a6f2",
+            "localeData": {
+                "en": {
+                    "intent": "Welcome Task",
+                    "desc": "Welcome Task"
+                }
+            },
+            "entityFields": {
+                "cityAdvanced": []
+            },
+            "spellcorrectThreshold": 0,
+            "preConditions": [],
+            "vNameSpace": [],
+            "useTaskLevelNs": true
+        },
+        {
+            "_id": "dc-ba88ff0d-f3f3-5153-9cd0-0adaf97b976b",
+            "refId": "72654650-417f-57db-a3fb-ff4482c35774",
+            "name": "whatElse",
+            "piiDataEnabled": false,
+            "serviceNodeType": "custom",
+            "type": "message",
+            "message": [
+                {
+                    "channel": "default",
+                    "localeData": {
+                        "en": {
+                            "text": "What%20else%20can%20I%20do%20for%20you%20%3F",
+                            "type": "basic"
+                        }
+                    }
+                }
+            ],
+            "applyDefaultTemplate": false,
+            "localeData": {
+                "en": {
+                    "label": "whatElse"
+                }
+            },
+            "entityFields": {
+                "cityAdvanced": []
+            },
+            "spellcorrectThreshold": 0,
+            "preConditions": [],
+            "vNameSpace": [],
+            "useTaskLevelNs": true
+        },
+        {
+            "_id": "dc-e0f6f7e4-3402-5ea1-8f70-bdbe321300bc",
+            "refId": "3fbae1dc-dca0-540b-8dec-562245adccaf",
+            "name": "cancelMessage",
+            "piiDataEnabled": false,
+            "serviceNodeType": "custom",
+            "type": "message",
+            "message": [
+                {
+                    "channel": "default",
+                    "localeData": {
+                        "en": {
+                            "text": "Okey.%20I%20am%20canceling%20the%20process.",
+                            "type": "basic"
+                        }
+                    }
+                }
+            ],
+            "applyDefaultTemplate": false,
+            "localeData": {
+                "en": {
+                    "label": "cancelMessage"
+                }
+            },
+            "entityFields": {
+                "cityAdvanced": []
+            },
+            "spellcorrectThreshold": 0,
+            "preConditions": [],
+            "vNameSpace": [],
+            "useTaskLevelNs": true
+        }
+    ],
+    "dialogs": [
+        {
+            "_id": "dg-5cbe42ea-9c5e-5b3c-b2fa-ebcde8cef262",
+            "refId": "73c0c9bb-db86-5d3d-a1d9-32ebc839fe18",
+            "nodes": [
+                {
+                    "nodeOptions": {
+                        "customTags": {
+                            "session": [],
+                            "message": [],
+                            "user": []
+                        },
+                        "transitionType": "auto",
+                        "isRetriesExceeded": false,
+                        "promptOptions": "required",
+                        "reuseMarkedupPhrases": false,
+                        "interruptOptions": {
+                            "priority": "task"
+                        },
+                        "transitionMode": "initiateCurrentTask",
+                        "inputHandlingOptions": "useAsEntityValue",
+                        "reuseOptions": "1",
+                        "userInputCorrection": true,
+                        "noAutoCorrection": false,
+                        "notForReuse": false,
+                        "contextTags": []
+                    },
+                    "vNameSpace": [],
+                    "preConditions": [],
+                    "useTaskLevelNs": true,
+                    "nodeId": "intent0",
+                    "type": "intent",
+                    "componentId": "dc-18143780-0a67-50f6-8ae8-563bfd39ae50",
+                    "transitions": [
+                        {
+                            "default": "FallbackMsg",
+                            "metadata": {
+                                "color": "#299d8e",
+                                "connId": "dummy0"
+                            }
+                        }
+                    ],
+                    "metadata": {
+                        "top": 170,
+                        "left": 30
+                    },
+                    "positionMeta": {
+                        "left": 750,
+                        "top": 100
+                    }
+                },
+                {
+                    "nodeOptions": {
+                        "customTags": {
+                            "session": [],
+                            "message": [],
+                            "user": []
+                        },
+                        "transitionType": "auto",
+                        "isRetriesExceeded": false,
+                        "promptOptions": "required",
+                        "reuseMarkedupPhrases": false,
+                        "interruptOptions": {
+                            "priority": "task"
+                        },
+                        "transitionMode": "initiateCurrentTask",
+                        "inputHandlingOptions": "useAsEntityValue",
+                        "reuseOptions": "1",
+                        "userInputCorrection": true,
+                        "noAutoCorrection": false,
+                        "notForReuse": false,
+                        "contextTags": []
+                    },
+                    "vNameSpace": [],
+                    "preConditions": [],
+                    "useTaskLevelNs": true,
+                    "transitions": [
+                        {
+                            "metadata": {
+                                "connId": "dummy3",
+                                "color": "#299d8e"
+                            },
+                            "default": ""
+                        }
+                    ],
+                    "componentId": "dc-a7f3df76-88b7-5afb-96ca-ba9ea8259b9c",
+                    "type": "message",
+                    "nodeId": "FallbackMsg",
+                    "positionMeta": {
+                        "left": 750,
+                        "top": 310
+                    }
+                }
+            ],
+            "lname": "fallback task",
+            "isHidden": true,
+            "localeData": {
+                "en": {
+                    "name": "Fallback Task",
+                    "shortDesc": "Fallback Task"
+                }
+            },
+            "groups": [],
+            "isFollowUp": false,
+            "interruptOptions": {
+                "priority": "bot"
+            },
+            "contextLifeTime": {
+                "options": "close"
+            },
+            "amendConfig": {
+                "priority": "bot"
+            },
+            "sceneRefId": "7e0699fe-2669-542b-82cd-797488e80c1e",
+            "vNameSpace": [
+                "87c2c744-2dfd-5e88-ac6a-4010f3a5b10a"
+            ]
+        },
+        {
+            "_id": "dg-c25ce06d-1cdf-5996-b6d5-aeca87b9a6f2",
+            "refId": "c58af14f-fc5b-5621-b153-beb435b2b822",
+            "nodes": [
+                {
+                    "nodeOptions": {
+                        "customTags": {
+                            "session": [],
+                            "message": [],
+                            "user": []
+                        },
+                        "transitionType": "auto",
+                        "isRetriesExceeded": false,
+                        "promptOptions": "required",
+                        "reuseMarkedupPhrases": false,
+                        "interruptOptions": {
+                            "priority": "task"
+                        },
+                        "transitionMode": "initiateCurrentTask",
+                        "inputHandlingOptions": "useAsEntityValue",
+                        "reuseOptions": "1",
+                        "userInputCorrection": true,
+                        "noAutoCorrection": false,
+                        "notForReuse": false,
+                        "contextTags": []
+                    },
+                    "vNameSpace": [],
+                    "preConditions": [],
+                    "useTaskLevelNs": true,
+                    "nodeId": "intent0",
+                    "type": "intent",
+                    "componentId": "dc-b37f5aff-7cd4-5c0a-9cea-32ea451dfd76",
+                    "transitions": [
+                        {
+                            "default": "message3",
+                            "metadata": {
+                                "color": "#299d8e",
+                                "connId": "dummy0"
+                            }
+                        }
+                    ],
+                    "metadata": {
+                        "top": 170,
+                        "left": 30
+                    },
+                    "positionMeta": {
+                        "left": 750,
+                        "top": 100
+                    }
+                },
+                {
+                    "nodeOptions": {
+                        "customTags": {
+                            "session": [],
+                            "message": [],
+                            "user": []
+                        },
+                        "transitionType": "auto",
+                        "isRetriesExceeded": false,
+                        "promptOptions": "required",
+                        "reuseMarkedupPhrases": false,
+                        "interruptOptions": {
+                            "priority": "task"
+                        },
+                        "transitionMode": "initiateCurrentTask",
+                        "inputHandlingOptions": "useAsEntityValue",
+                        "reuseOptions": "1",
+                        "userInputCorrection": true,
+                        "noAutoCorrection": false,
+                        "notForReuse": false,
+                        "contextTags": []
+                    },
+                    "vNameSpace": [],
+                    "preConditions": [],
+                    "useTaskLevelNs": true,
+                    "transitions": [
+                        {
+                            "metadata": {
+                                "connId": "dummy3",
+                                "color": "#299d8e"
+                            },
+                            "default": ""
+                        }
+                    ],
+                    "componentId": "dc-6dab6757-716e-5fba-9091-fb1e2349a0c0",
+                    "type": "message",
+                    "nodeId": "message3",
+                    "positionMeta": {
+                        "left": 750,
+                        "top": 310
+                    }
+                }
+            ],
+            "lname": "welcome task",
+            "isHidden": true,
+            "localeData": {
+                "en": {
+                    "name": "Welcome Task",
+                    "shortDesc": "Welcome Task"
+                }
+            },
+            "groups": [],
+            "isFollowUp": false,
+            "interruptOptions": {
+                "priority": "bot"
+            },
+            "contextLifeTime": {
+                "options": "close"
+            },
+            "amendConfig": {
+                "priority": "bot"
+            },
+            "sceneRefId": "ab86d769-0be4-5766-9eca-2e53c8cc5bd1",
+            "vNameSpace": [
+                "87c2c744-2dfd-5e88-ac6a-4010f3a5b10a"
+            ]
+        },
+        {
+            "_id": "dg-efdd8259-ac5e-5c30-bcc0-ec40b6d3b8a7",
+            "refId": "64367b17-478c-5af5-b486-ef81cb14ea17",
+            "nodes": [
+                {
+                    "nodeOptions": {
+                        "customTags": {
+                            "session": [],
+                            "message": [],
+                            "user": []
+                        },
+                        "transitionType": "auto",
+                        "isRetriesExceeded": false,
+                        "promptOptions": "required",
+                        "reuseMarkedupPhrases": false,
+                        "interruptOptions": {
+                            "priority": "task"
+                        },
+                        "transitionMode": "initiateCurrentTask",
+                        "inputHandlingOptions": "useAsEntityValue",
+                        "reuseOptions": "1",
+                        "userInputCorrection": true,
+                        "noAutoCorrection": false,
+                        "notForReuse": false,
+                        "contextTags": []
+                    },
+                    "vNameSpace": [],
+                    "preConditions": [],
+                    "useTaskLevelNs": true,
+                    "nodeId": "intent0",
+                    "type": "intent",
+                    "componentId": "dc-332386dd-bf69-5580-b563-79dcc674197f",
+                    "transitions": [
+                        {
+                            "default": "nd-ent-11aefb3d-00e0-49bd-8cb5-77f19bc7a610",
+                            "metadata": {
+                                "color": "#299d8e",
+                                "connId": "dummy0"
+                            }
+                        }
+                    ],
+                    "metadata": {
+                        "left": 30,
+                        "top": 120
+                    },
+                    "positionMeta": {
+                        "left": 750,
+                        "top": 100
+                    }
+                },
+                {
+                    "nodeOptions": {
+                        "customTags": {
+                            "session": [
+                                {
+                                    "name": "",
+                                    "value": ""
+                                }
+                            ],
+                            "message": [
+                                {
+                                    "name": "",
+                                    "value": ""
+                                }
+                            ],
+                            "user": [
+                                {
+                                    "name": "",
+                                    "value": ""
+                                }
+                            ]
+                        },
+                        "transitionType": "auto",
+                        "isRetriesExceeded": false,
+                        "promptOptions": "required",
+                        "reuseMarkedupPhrases": false,
+                        "interruptOptions": {
+                            "interruptsEnabled": true,
+                            "priority": "task"
+                        },
+                        "transitionMode": "initiateCurrentTask",
+                        "inputHandlingOptions": "useAsEntityValue",
+                        "reuseOptions": "1",
+                        "userInputCorrection": true,
+                        "noAutoCorrection": false,
+                        "notForReuse": false,
+                        "contextTags": [],
+                        "precedence": "entityOverIntent",
+                        "eventOptions": {
+                            "defaultMaxRetry": {
+                                "retry_limit": "3",
+                                "action": "endOfDialog"
+                            }
+                        }
+                    },
+                    "vNameSpace": [],
+                    "preConditions": [],
+                    "useTaskLevelNs": true,
+                    "nodeId": "nd-ent-11aefb3d-00e0-49bd-8cb5-77f19bc7a610",
+                    "type": "entity",
+                    "componentId": "dc-a3a9413b-52d4-5f5e-a456-f477a9730950",
+                    "transitions": [
+                        {
+                            "default": "nd-dac-fa0cbdca-63cd-4741-8333-36f5e92b2a16",
+                            "metadata": {
+                                "color": "#676767",
+                                "connId": "dummy-8ee7e6d2-fc69-472f-aaca-cc4bb5f5223e",
+                                "pathName": "",
+                                "pathsMap": []
+                            }
+                        }
+                    ],
+                    "positionMeta": {
+                        "left": 750,
+                        "top": 310
+                    }
+                },
+                {
+                    "nodeOptions": {
+                        "customTags": {
+                            "session": [],
+                            "message": [],
+                            "user": []
+                        },
+                        "transitionType": "auto",
+                        "isRetriesExceeded": false,
+                        "promptOptions": "required",
+                        "reuseMarkedupPhrases": false,
+                        "interruptOptions": {
+                            "interruptsEnabled": true,
+                            "priority": "task"
+                        },
+                        "transitionMode": "initiateCurrentTask",
+                        "inputHandlingOptions": "useAsEntityValue",
+                        "reuseOptions": "1",
+                        "userInputCorrection": true,
+                        "noAutoCorrection": false,
+                        "notForReuse": false,
+                        "contextTags": [],
+                        "precedence": "entityOverIntent"
+                    },
+                    "vNameSpace": [],
+                    "preConditions": [],
+                    "useTaskLevelNs": true,
+                    "nodeId": "nd-dac-fa0cbdca-63cd-4741-8333-36f5e92b2a16",
+                    "type": "dialogAct",
+                    "componentId": "dc-2c19b0f8-4a49-56a5-91db-9f1767724e22",
+                    "transitions": [
+                        {
+                            "if": {
+                                "dialogAct": "yes"
+                            },
+                            "then": "nd-ent-71dd776a-30b7-423e-bc79-d6063b239531",
+                            "metadata": {
+                                "color": "#676767",
+                                "connId": "dummy-832549f9-c861-43ed-b524-000e8655243e",
+                                "pathName": "",
+                                "pathsMap": []
+                            },
+                            "userUtterance": "Yes"
+                        },
+                        {
+                            "if": {
+                                "dialogAct": "no"
+                            },
+                            "then": "nd-msg-879b1117-f379-40ac-bff8-3427b56ba8f1",
+                            "metadata": {
+                                "color": "#116768",
+                                "connId": "dummy-d7478f48-fb97-43bf-a035-64abe6f99dc5",
+                                "pathName": "",
+                                "pathsMap": []
+                            },
+                            "userUtterance": "No"
+                        }
+                    ],
+                    "positionMeta": {
+                        "left": 750,
+                        "top": 560
+                    }
+                },
+                {
+                    "nodeOptions": {
+                        "customTags": {
+                            "session": [],
+                            "message": [],
+                            "user": []
+                        },
+                        "transitionType": "auto",
+                        "isRetriesExceeded": false,
+                        "promptOptions": "required",
+                        "reuseMarkedupPhrases": false,
+                        "interruptOptions": {
+                            "priority": "task"
+                        },
+                        "transitionMode": "initiateCurrentTask",
+                        "inputHandlingOptions": "useAsEntityValue",
+                        "reuseOptions": "1",
+                        "userInputCorrection": true,
+                        "noAutoCorrection": false,
+                        "notForReuse": false,
+                        "contextTags": []
+                    },
+                    "vNameSpace": [],
+                    "preConditions": [],
+                    "useTaskLevelNs": true,
+                    "nodeId": "nd-msg-879b1117-f379-40ac-bff8-3427b56ba8f1",
+                    "type": "message",
+                    "componentId": "dc-e0f6f7e4-3402-5ea1-8f70-bdbe321300bc",
+                    "transitions": [
+                        {
+                            "default": "nd-msg-7f30b381-9f3f-45da-9439-f7d43d1a688d",
+                            "metadata": {
+                                "color": "#676767",
+                                "connId": "dummy-6843c388-47c0-4b12-a9d1-a84fc4d6c61f",
+                                "pathName": "",
+                                "pathsMap": []
+                            }
+                        }
+                    ],
+                    "positionMeta": {
+                        "left": 875,
+                        "top": 810
+                    }
+                },
+                {
+                    "nodeOptions": {
+                        "customTags": {
+                            "session": [],
+                            "message": [],
+                            "user": []
+                        },
+                        "transitionType": "auto",
+                        "isRetriesExceeded": false,
+                        "promptOptions": "required",
+                        "reuseMarkedupPhrases": false,
+                        "interruptOptions": {
+                            "priority": "task"
+                        },
+                        "transitionMode": "initiateCurrentTask",
+                        "inputHandlingOptions": "useAsEntityValue",
+                        "reuseOptions": "1",
+                        "userInputCorrection": true,
+                        "noAutoCorrection": false,
+                        "notForReuse": false,
+                        "contextTags": []
+                    },
+                    "vNameSpace": [],
+                    "preConditions": [],
+                    "useTaskLevelNs": true,
+                    "nodeId": "nd-msg-7f30b381-9f3f-45da-9439-f7d43d1a688d",
+                    "type": "message",
+                    "componentId": "dc-ba88ff0d-f3f3-5153-9cd0-0adaf97b976b",
+                    "transitions": [
+                        {
+                            "default": "end",
+                            "metadata": {
+                                "color": "#676767",
+                                "connId": "dummy-4776f947-2797-4734-b482-ce56f0c509ff",
+                                "pathName": "",
+                                "pathsMap": []
+                            }
+                        }
+                    ],
+                    "positionMeta": {
+                        "left": 1250,
+                        "top": 1060
+                    }
+                },
+                {
+                    "nodeOptions": {
+                        "customTags": {
+                            "session": [
+                                {
+                                    "name": "",
+                                    "value": ""
+                                }
+                            ],
+                            "message": [
+                                {
+                                    "name": "",
+                                    "value": ""
+                                }
+                            ],
+                            "user": [
+                                {
+                                    "name": "",
+                                    "value": ""
+                                }
+                            ]
+                        },
+                        "transitionType": "auto",
+                        "isRetriesExceeded": false,
+                        "promptOptions": "required",
+                        "reuseMarkedupPhrases": false,
+                        "interruptOptions": {
+                            "interruptsEnabled": true,
+                            "priority": "task"
+                        },
+                        "transitionMode": "initiateCurrentTask",
+                        "inputHandlingOptions": "useAsEntityValue",
+                        "reuseOptions": "1",
+                        "userInputCorrection": true,
+                        "noAutoCorrection": false,
+                        "notForReuse": false,
+                        "contextTags": [],
+                        "precedence": "entityOverIntent",
+                        "eventOptions": {
+                            "defaultMaxRetry": {
+                                "retry_limit": 5,
+                                "action": "endOfDialog"
+                            }
+                        }
+                    },
+                    "vNameSpace": [],
+                    "preConditions": [],
+                    "useTaskLevelNs": true,
+                    "nodeId": "nd-ent-71dd776a-30b7-423e-bc79-d6063b239531",
+                    "type": "entity",
+                    "componentId": "dc-7cad8802-0af2-5cdd-9510-f97f9b10ff06",
+                    "transitions": [
+                        {
+                            "if": {
+                                "conjoin": "or",
+                                "tests": [
+                                    {
+                                        "context": "context.entities.getDetails",
+                                        "op": "eq",
+                                        "value": "phone"
+                                    },
+                                    {
+                                        "context": "mobile",
+                                        "op": "",
+                                        "value": ""
+                                    }
+                                ]
+                            },
+                            "metadata": {
+                                "color": "#299d8e",
+                                "connId": "dummy-eea43143-b160-4536-955e-567a3752cca9",
+                                "pathName": "",
+                                "pathsMap": []
+                            },
+                            "then": "nd-dac-ab117a57-912d-48c3-bd5a-0d8ecda7cedf",
+                            "userUtterance": "Sample User Response"
+                        },
+                        {
+                            "if": {
+                                "conjoin": "or",
+                                "tests": [
+                                    {
+                                        "context": "context.entities.getDetails",
+                                        "op": "eq",
+                                        "value": "pc"
+                                    },
+                                    {
+                                        "context": "desktop",
+                                        "op": "",
+                                        "value": ""
+                                    },
+                                    {
+                                        "context": "computer",
+                                        "op": "",
+                                        "value": ""
+                                    }
+                                ]
+                            },
+                            "metadata": {
+                                "color": "#299d8e",
+                                "connId": "dummy-48d56db9-5a6b-4398-8321-d336fe0d6f89",
+                                "pathName": "",
+                                "pathsMap": []
+                            },
+                            "then": "nd-dac-b79a92e0-15ef-4f0f-95cc-6f89e50c2a57",
+                            "userUtterance": "Sample User Response"
+                        },
+                        {
+                            "if": {
+                                "conjoin": "or",
+                                "tests": [
+                                    {
+                                        "context": "context.entities.getDetails",
+                                        "op": "eq",
+                                        "value": "net"
+                                    },
+                                    {
+                                        "context": "network",
+                                        "op": "",
+                                        "value": ""
+                                    },
+                                    {
+                                        "context": "internet",
+                                        "op": "",
+                                        "value": ""
+                                    },
+                                    {
+                                        "context": "website",
+                                        "op": "",
+                                        "value": ""
+                                    }
+                                ]
+                            },
+                            "metadata": {
+                                "color": "#299d8e",
+                                "connId": "dummy-3757d414-d861-40a7-bf56-678e523cd587",
+                                "pathName": "",
+                                "pathsMap": []
+                            },
+                            "then": "nd-dac-7d87629c-a06e-4dc2-a5d2-a3d1ee0f8d45",
+                            "userUtterance": "Sample User Response"
+                        },
+                        {
+                            "default": "nd-msg-5ca23e20-f8ea-4a53-83dd-335a191bc883",
+                            "metadata": {
+                                "color": "#676767",
+                                "connId": "dummy-3462c46f-c23e-406a-bf98-abfda16c96bd",
+                                "pathName": "",
+                                "pathsMap": []
+                            }
+                        }
+                    ],
+                    "positionMeta": {
+                        "left": 625,
+                        "top": 810
+                    }
+                },
+                {
+                    "nodeOptions": {
+                        "customTags": {
+                            "session": [],
+                            "message": [],
+                            "user": []
+                        },
+                        "transitionType": "auto",
+                        "isRetriesExceeded": false,
+                        "promptOptions": "required",
+                        "reuseMarkedupPhrases": false,
+                        "interruptOptions": {
+                            "interruptsEnabled": true,
+                            "priority": "task"
+                        },
+                        "transitionMode": "initiateCurrentTask",
+                        "inputHandlingOptions": "useAsEntityValue",
+                        "reuseOptions": "1",
+                        "userInputCorrection": true,
+                        "noAutoCorrection": false,
+                        "notForReuse": false,
+                        "contextTags": [],
+                        "precedence": "entityOverIntent"
+                    },
+                    "vNameSpace": [],
+                    "preConditions": [],
+                    "useTaskLevelNs": true,
+                    "nodeId": "nd-dac-ab117a57-912d-48c3-bd5a-0d8ecda7cedf",
+                    "type": "dialogAct",
+                    "componentId": "dc-7f2974c1-7a7f-5978-ac6a-229a99aea14c",
+                    "transitions": [
+                        {
+                            "if": {
+                                "dialogAct": "yes"
+                            },
+                            "then": "nd-msg-fbeaa174-837f-4908-a2f1-dd47782ec6f7",
+                            "metadata": {
+                                "color": "#676767",
+                                "connId": "dummy-04c73ce7-be5d-4b87-8b73-3505afd08044",
+                                "pathName": "",
+                                "pathsMap": []
+                            },
+                            "userUtterance": "Yes"
+                        },
+                        {
+                            "if": {
+                                "dialogAct": "no"
+                            },
+                            "then": "nd-msg-5ca23e20-f8ea-4a53-83dd-335a191bc883",
+                            "metadata": {
+                                "color": "#116768",
+                                "connId": "dummy-94be8dac-5aca-4345-90b8-58da864f9c4b",
+                                "pathName": "",
+                                "pathsMap": []
+                            },
+                            "userUtterance": "No"
+                        }
+                    ],
+                    "positionMeta": {
+                        "left": 250,
+                        "top": 1060
+                    }
+                },
+                {
+                    "nodeOptions": {
+                        "customTags": {
+                            "session": [],
+                            "message": [],
+                            "user": []
+                        },
+                        "transitionType": "auto",
+                        "isRetriesExceeded": false,
+                        "promptOptions": "required",
+                        "reuseMarkedupPhrases": false,
+                        "interruptOptions": {
+                            "priority": "task"
+                        },
+                        "transitionMode": "initiateCurrentTask",
+                        "inputHandlingOptions": "useAsEntityValue",
+                        "reuseOptions": "1",
+                        "userInputCorrection": true,
+                        "noAutoCorrection": false,
+                        "notForReuse": false,
+                        "contextTags": []
+                    },
+                    "vNameSpace": [],
+                    "preConditions": [],
+                    "useTaskLevelNs": true,
+                    "nodeId": "nd-msg-fbeaa174-837f-4908-a2f1-dd47782ec6f7",
+                    "type": "message",
+                    "componentId": "dc-63b23101-dfc6-5378-9c97-961119634f4c",
+                    "transitions": [
+                        {
+                            "default": "nd-msg-7f30b381-9f3f-45da-9439-f7d43d1a688d",
+                            "metadata": {
+                                "color": "#676767",
+                                "connId": "dummy-159c089b-26f1-4501-9643-e9c39707b458",
+                                "pathName": "",
+                                "pathsMap": []
+                            }
+                        }
+                    ],
+                    "positionMeta": {
+                        "left": 125,
+                        "top": 1310
+                    }
+                },
+                {
+                    "nodeOptions": {
+                        "customTags": {
+                            "session": [],
+                            "message": [],
+                            "user": []
+                        },
+                        "transitionType": "auto",
+                        "isRetriesExceeded": false,
+                        "promptOptions": "required",
+                        "reuseMarkedupPhrases": false,
+                        "interruptOptions": {
+                            "priority": "task"
+                        },
+                        "transitionMode": "initiateCurrentTask",
+                        "inputHandlingOptions": "useAsEntityValue",
+                        "reuseOptions": "1",
+                        "userInputCorrection": true,
+                        "noAutoCorrection": false,
+                        "notForReuse": false,
+                        "contextTags": []
+                    },
+                    "vNameSpace": [],
+                    "preConditions": [],
+                    "useTaskLevelNs": true,
+                    "nodeId": "nd-msg-5ca23e20-f8ea-4a53-83dd-335a191bc883",
+                    "type": "message",
+                    "componentId": "dc-23a0427a-7d4f-5c12-8f27-fe3c47564647",
+                    "transitions": [
+                        {
+                            "default": "nd-msg-7f30b381-9f3f-45da-9439-f7d43d1a688d",
+                            "metadata": {
+                                "color": "#676767",
+                                "connId": "dummy-d502afc5-0f62-44a9-be8e-0cc2b17656b2",
+                                "pathName": "",
+                                "pathsMap": []
+                            }
+                        }
+                    ],
+                    "positionMeta": {
+                        "left": 1000,
+                        "top": 1060
+                    }
+                },
+                {
+                    "nodeOptions": {
+                        "customTags": {
+                            "session": [],
+                            "message": [],
+                            "user": []
+                        },
+                        "transitionType": "auto",
+                        "isRetriesExceeded": false,
+                        "promptOptions": "required",
+                        "reuseMarkedupPhrases": false,
+                        "interruptOptions": {
+                            "interruptsEnabled": true,
+                            "priority": "task"
+                        },
+                        "transitionMode": "initiateCurrentTask",
+                        "inputHandlingOptions": "useAsEntityValue",
+                        "reuseOptions": "1",
+                        "userInputCorrection": true,
+                        "noAutoCorrection": false,
+                        "notForReuse": false,
+                        "contextTags": [],
+                        "precedence": "entityOverIntent"
+                    },
+                    "vNameSpace": [],
+                    "preConditions": [],
+                    "useTaskLevelNs": true,
+                    "nodeId": "nd-dac-b79a92e0-15ef-4f0f-95cc-6f89e50c2a57",
+                    "type": "dialogAct",
+                    "componentId": "dc-4cbf6ed5-0b5d-5946-8a8a-2c942dc650e4",
+                    "transitions": [
+                        {
+                            "if": {
+                                "dialogAct": "yes"
+                            },
+                            "then": "nd-msg-8e7710ed-9ee6-419b-b260-dbc3a74618d7",
+                            "metadata": {
+                                "color": "#676767",
+                                "connId": "dummy-1df34912-c918-499b-a9f5-7ccf4ea739c2",
+                                "pathName": "",
+                                "pathsMap": []
+                            },
+                            "userUtterance": "Yes"
+                        },
+                        {
+                            "if": {
+                                "dialogAct": "no"
+                            },
+                            "then": "nd-msg-5ca23e20-f8ea-4a53-83dd-335a191bc883",
+                            "metadata": {
+                                "color": "#116768",
+                                "connId": "dummy-d237e4e9-1c7a-45c2-9fb7-da81babedfa1",
+                                "pathName": "",
+                                "pathsMap": []
+                            },
+                            "userUtterance": "No"
+                        }
+                    ],
+                    "positionMeta": {
+                        "left": 500,
+                        "top": 1060
+                    }
+                },
+                {
+                    "nodeOptions": {
+                        "customTags": {
+                            "session": [],
+                            "message": [],
+                            "user": []
+                        },
+                        "transitionType": "auto",
+                        "isRetriesExceeded": false,
+                        "promptOptions": "required",
+                        "reuseMarkedupPhrases": false,
+                        "interruptOptions": {
+                            "priority": "task"
+                        },
+                        "transitionMode": "initiateCurrentTask",
+                        "inputHandlingOptions": "useAsEntityValue",
+                        "reuseOptions": "1",
+                        "userInputCorrection": true,
+                        "noAutoCorrection": false,
+                        "notForReuse": false,
+                        "contextTags": []
+                    },
+                    "vNameSpace": [],
+                    "preConditions": [],
+                    "useTaskLevelNs": true,
+                    "nodeId": "nd-msg-8e7710ed-9ee6-419b-b260-dbc3a74618d7",
+                    "type": "message",
+                    "componentId": "dc-1e9ccf0e-6e53-5e96-8e52-6fed1929a2f1",
+                    "transitions": [
+                        {
+                            "default": "nd-msg-7f30b381-9f3f-45da-9439-f7d43d1a688d",
+                            "metadata": {
+                                "color": "#676767",
+                                "connId": "dummy-d816840b-d5e2-467c-9fbb-733370cfda81",
+                                "pathName": "",
+                                "pathsMap": []
+                            }
+                        }
+                    ],
+                    "positionMeta": {
+                        "left": 625,
+                        "top": 1310
+                    }
+                },
+                {
+                    "nodeOptions": {
+                        "customTags": {
+                            "session": [],
+                            "message": [],
+                            "user": []
+                        },
+                        "transitionType": "auto",
+                        "isRetriesExceeded": false,
+                        "promptOptions": "required",
+                        "reuseMarkedupPhrases": false,
+                        "interruptOptions": {
+                            "interruptsEnabled": true,
+                            "priority": "task"
+                        },
+                        "transitionMode": "initiateCurrentTask",
+                        "inputHandlingOptions": "useAsEntityValue",
+                        "reuseOptions": "1",
+                        "userInputCorrection": true,
+                        "noAutoCorrection": false,
+                        "notForReuse": false,
+                        "contextTags": [],
+                        "precedence": "entityOverIntent"
+                    },
+                    "vNameSpace": [],
+                    "preConditions": [],
+                    "useTaskLevelNs": true,
+                    "nodeId": "nd-dac-7d87629c-a06e-4dc2-a5d2-a3d1ee0f8d45",
+                    "type": "dialogAct",
+                    "componentId": "dc-6b817dfa-6809-55ac-8d85-0b02d579c9e2",
+                    "transitions": [
+                        {
+                            "if": {
+                                "dialogAct": "yes"
+                            },
+                            "then": "nd-msg-76ab3ca5-6cb7-4b84-8afd-01f05e9f7c94",
+                            "metadata": {
+                                "color": "#676767",
+                                "connId": "dummy-1d0b71c7-b66f-4f7b-8eb1-4a5eb573246e",
+                                "pathName": "",
+                                "pathsMap": []
+                            },
+                            "userUtterance": "Yes"
+                        },
+                        {
+                            "if": {
+                                "dialogAct": "no"
+                            },
+                            "then": "nd-msg-5ca23e20-f8ea-4a53-83dd-335a191bc883",
+                            "metadata": {
+                                "color": "#116768",
+                                "connId": "dummy-6aee2686-a9a6-4088-bbf4-7a1174c38b78",
+                                "pathName": "",
+                                "pathsMap": []
+                            },
+                            "userUtterance": "No"
+                        }
+                    ],
+                    "positionMeta": {
+                        "left": 750,
+                        "top": 1060
+                    }
+                },
+                {
+                    "nodeOptions": {
+                        "customTags": {
+                            "session": [],
+                            "message": [],
+                            "user": []
+                        },
+                        "transitionType": "auto",
+                        "isRetriesExceeded": false,
+                        "promptOptions": "required",
+                        "reuseMarkedupPhrases": false,
+                        "interruptOptions": {
+                            "priority": "task"
+                        },
+                        "transitionMode": "initiateCurrentTask",
+                        "inputHandlingOptions": "useAsEntityValue",
+                        "reuseOptions": "1",
+                        "userInputCorrection": true,
+                        "noAutoCorrection": false,
+                        "notForReuse": false,
+                        "contextTags": []
+                    },
+                    "vNameSpace": [],
+                    "preConditions": [],
+                    "useTaskLevelNs": true,
+                    "nodeId": "nd-msg-76ab3ca5-6cb7-4b84-8afd-01f05e9f7c94",
+                    "type": "message",
+                    "componentId": "dc-2b5a5642-a38d-54fe-8767-1ca44baeee0b",
+                    "transitions": [
+                        {
+                            "default": "nd-msg-7f30b381-9f3f-45da-9439-f7d43d1a688d",
+                            "metadata": {
+                                "color": "#676767",
+                                "connId": "dummy-d46a3cfd-a350-4657-a97d-9ee0daec9622",
+                                "pathName": "",
+                                "pathsMap": []
+                            }
+                        }
+                    ],
+                    "positionMeta": {
+                        "left": 1125,
+                        "top": 1310
+                    }
+                }
+            ],
+            "lname": "checkstatus",
+            "isHidden": false,
+            "localeData": {
+                "en": {
+                    "name": "checkstatus",
+                    "shortDesc": "Checking the status of the user"
+                }
+            },
+            "groups": [
+                {
+                    "_id": "631804520dfb90f52b35bafa",
+                    "nodes": [
+                        "nd-dac-d695d2f1-a87f-4f66-ad1b-e630f2470be0"
+                    ],
+                    "name": "Group Name",
+                    "subIntents": []
+                }
+            ],
+            "isFollowUp": false,
+            "interruptOptions": {
+                "priority": "bot"
+            },
+            "contextLifeTime": {
+                "options": "close"
+            },
+            "amendConfig": {
+                "priority": "bot"
+            },
+            "sceneRefId": "91130f81-8b08-5e09-a652-feee0727f418",
+            "vNameSpace": [
+                "87c2c744-2dfd-5e88-ac6a-4010f3a5b10a"
+            ]
+        }
+    ],
+    "scenes": [
+        {
+            "_id": "sn-fd94b6b4-78ff-58b9-b81e-c2a907c11551",
+            "botstoreInfo": [
+                {
+                    "type": "interactive",
+                    "isSecured": false,
+                    "link": "6f67506b42754934366befbfbd60efbfbd"
+                }
+            ],
+            "components": {
+                "snc-e64db08e-4dae-5963-a00c-ff3ccbf56e2c": {
+                    "childs": [],
+                    "seqId": "Id1"
+                }
+            },
+            "currentSeqId": 1,
+            "description": "Fallback Task",
+            "dialogRefId": "73c0c9bb-db86-5d3d-a1d9-32ebc839fe18",
+            "name": "Fallback Task",
+            "refId": "7e0699fe-2669-542b-82cd-797488e80c1e",
+            "sceneLinkedBy": [],
+            "sceneType": "dialogScene",
+            "status": "inProgress",
+            "streamId": "st-e61d04dd-33f0-5ac9-b625-e0e33b74d1c7",
+            "tags": [],
+            "widgetThemeId": "wth-5e3e0d371dbd0c312e39726d",
+            "dialogLinks": {
+                "snc-e64db08e-4dae-5963-a00c-ff3ccbf56e2c": {
+                    "dialogRefId": "73c0c9bb-db86-5d3d-a1d9-32ebc839fe18"
+                }
+            },
+            "resourceid": "scenes"
+        },
+        {
+            "_id": "sn-11fdce9c-b338-56ed-9738-2846ba526182",
+            "botstoreInfo": [
+                {
+                    "type": "interactive",
+                    "isSecured": false,
+                    "link": "5952344574513872744f28efbfbdefbfbd"
+                }
+            ],
+            "components": {
+                "snc-63f6ceff-9ecc-5c09-82b7-fb7a9e925e8c": {
+                    "childs": [],
+                    "seqId": "Id1"
+                }
+            },
+            "currentSeqId": 1,
+            "description": "Welcome Task",
+            "dialogRefId": "c58af14f-fc5b-5621-b153-beb435b2b822",
+            "name": "Welcome Task",
+            "refId": "ab86d769-0be4-5766-9eca-2e53c8cc5bd1",
+            "sceneLinkedBy": [],
+            "sceneType": "dialogScene",
+            "status": "inProgress",
+            "streamId": "st-e61d04dd-33f0-5ac9-b625-e0e33b74d1c7",
+            "tags": [],
+            "widgetThemeId": "wth-5e3e0d371dbd0c312e39726d",
+            "dialogLinks": {
+                "snc-63f6ceff-9ecc-5c09-82b7-fb7a9e925e8c": {
+                    "dialogRefId": "c58af14f-fc5b-5621-b153-beb435b2b822"
+                }
+            },
+            "resourceid": "scenes"
+        },
+        {
+            "_id": "sn-7be664f0-956d-5844-b892-fa8ac0fdc3a3",
+            "botstoreInfo": [
+                {
+                    "type": "interactive",
+                    "isSecured": false,
+                    "link": "c58d356359444c513966c58defbfbdefbfbdefbfbd"
+                }
+            ],
+            "components": {
+                "snc-5b123eb2-87fe-51d8-8339-c06c9cc6a9b7": {
+                    "childs": [],
+                    "seqId": "Id1"
+                }
+            },
+            "currentSeqId": 1,
+            "description": "Checking the status of the user",
+            "dialogRefId": "64367b17-478c-5af5-b486-ef81cb14ea17",
+            "name": "checkstatus",
+            "refId": "91130f81-8b08-5e09-a652-feee0727f418",
+            "sceneLinkedBy": [],
+            "sceneType": "dialogScene",
+            "status": "In Progress",
+            "streamId": "st-e61d04dd-33f0-5ac9-b625-e0e33b74d1c7",
+            "tags": [],
+            "widgetThemeId": "wth-5e3e0d371dbd0c312e39726d",
+            "dialogLinks": {
+                "snc-5b123eb2-87fe-51d8-8339-c06c9cc6a9b7": {
+                    "dialogRefId": "64367b17-478c-5af5-b486-ef81cb14ea17"
+                }
+            },
+            "resourceid": "scenes"
+        }
+    ],
+    "sceneComponents": [
+        {
+            "_id": "snc-e64db08e-4dae-5963-a00c-ff3ccbf56e2c",
+            "state": 0,
+            "type": "note",
+            "msg": {
+                "type": "text",
+                "payload": {
+                    "text": "Dialog Conversation Started"
+                }
+            },
+            "sceneId": "sn-fd94b6b4-78ff-58b9-b81e-c2a907c11551",
+            "streamId": "st-e61d04dd-33f0-5ac9-b625-e0e33b74d1c7",
+            "comments": [],
+            "refId": "e25ae057-3306-5190-ab9c-2d31b10b6485"
+        },
+        {
+            "_id": "snc-63f6ceff-9ecc-5c09-82b7-fb7a9e925e8c",
+            "state": 0,
+            "type": "note",
+            "msg": {
+                "type": "text",
+                "payload": {
+                    "text": "Dialog Conversation Started"
+                }
+            },
+            "sceneId": "sn-11fdce9c-b338-56ed-9738-2846ba526182",
+            "streamId": "st-e61d04dd-33f0-5ac9-b625-e0e33b74d1c7",
+            "comments": [],
+            "refId": "777c4c9e-aeda-5950-9a49-4007bac09a86"
+        },
+        {
+            "_id": "snc-5b123eb2-87fe-51d8-8339-c06c9cc6a9b7",
+            "state": 0,
+            "type": "note",
+            "msg": {
+                "type": "text",
+                "payload": {
+                    "text": "Dialog Conversation Started"
+                }
+            },
+            "sceneId": "sn-7be664f0-956d-5844-b892-fa8ac0fdc3a3",
+            "streamId": "st-e61d04dd-33f0-5ac9-b625-e0e33b74d1c7",
+            "comments": [],
+            "refId": "2abe53bb-aee4-5a77-8e50-bddfa059c82b"
+        }
+    ],
+    "widgetThemes": [
+        {
+            "_id": "wth-5e3e0d371dbd0c312e39726d",
+            "theme": "Default light theme",
+            "widgetBgColor": "#FFFFFF",
+            "widgetTextColor": "#26344A",
+            "widgetBorderColor": "#EEEEEE",
+            "widgetDividerColor": "#e5e8ec",
+            "userchatBgColor": "#EFF4FF",
+            "userchatTextColor": "#26344A",
+            "botchatBgColor": "#F4F4F4",
+            "botchatTextColor": "#26344A",
+            "buttonActiveBgColor": "#FFFFFF",
+            "buttonActiveTextColor": "#26344A",
+            "buttonInactiveBgColor": "#FFFFFF",
+            "buttonInactiveTextColor": "#26344A",
+            "isdefaultWidget": true
+        }
+    ],
+    "knowledgeTasks": [
+        {
+            "refId": "cb6fdd28-98e7-5e4c-bef4-c8f10375661c",
+            "name": "CyberBot",
+            "description": "This is used to make ontology",
+            "isGraph": true,
+            "taxonomy": [
+                {
+                    "parent": [],
+                    "synonyms": [],
+                    "preConditions": [],
+                    "contextTags": [],
+                    "enableContext": false,
+                    "traitRule": [],
+                    "isDummy": false,
+                    "editLocked": false,
+                    "termStatus": true,
+                    "nodeId": "948bcaaf-6cf6-4dee-b3af-657838be7efc",
+                    "label": "CyberBot",
+                    "level": "l0"
+                }
+            ],
+            "metadata": {
+                "taxonomy": [
+                    {
+                        "nodeId": "948bcaaf-6cf6-4dee-b3af-657838be7efc",
+                        "label": "CyberBot",
+                        "class": "bgblack",
+                        "level": "l0",
+                        "parent": [],
+                        "synonyms": [],
+                        "nodes": []
+                    }
+                ]
+            },
+            "language": "en",
+            "vNameSpace": [
+                "87c2c744-2dfd-5e88-ac6a-4010f3a5b10a"
+            ],
+            "faqs": {
+                "faqs": [
+                    {
+                        "question": "Why did my site get hacked?",
+                        "alternateQuestions": [],
+                        "terms": [
+                            "CyberBot|| || "
+                        ],
+                        "tags": [],
+                        "refId": "9352461a-730e-5bb7-b7e0-4ec128621f3c",
+                        "faqStatus": true,
+                        "responseType": "message",
+                        "answer": [
+                            {
+                                "text": "[How do I know I’ve been hacked?](https://web.dev/faq-for-hacked-sites/#know)[How did I get hacked?](https://web.dev/faq-for-hacked-sites/#how)[Where can I go if I have additional questions?](https://web.dev/faq-for-hacked-sites/#questions)",
+                                "type": "basic",
+                                "channel": "default"
+                            }
+                        ],
+                        "alternateAnswers": []
+                    },
+                    {
+                        "question": "what is hacking",
+                        "alternateQuestions": [],
+                        "terms": [
+                            "CyberBot|| || "
+                        ],
+                        "tags": [],
+                        "refId": "21d33fe4-0249-566b-8adf-61384d4f430c",
+                        "faqStatus": true,
+                        "label": "what is hacking",
+                        "responseType": "message",
+                        "answer": [
+                            {
+                                "text": "the gaining of unauthorized access to data in a system or computer.",
+                                "type": "basic",
+                                "channel": "default"
+                            }
+                        ],
+                        "alternateAnswers": [
+                            [
+                                {
+                                    "text": "A commonly used hacking definition is the act of compromising digital devices and networks through unauthorized access to an account or computer system. Hacking is not always a malicious act, but it is most commonly associated with illegal activity and data theft by cyber criminals.",
+                                    "type": "basic",
+                                    "channel": "default"
+                                }
+                            ]
+                        ]
+                    },
+                    {
+                        "question": "types of hacking",
+                        "alternateQuestions": [],
+                        "terms": [
+                            "CyberBot|| || "
+                        ],
+                        "tags": [],
+                        "refId": "21cd42b4-a0a7-59a5-9b18-b074652df989",
+                        "faqStatus": true,
+                        "label": "types of hacking",
+                        "responseType": "message",
+                        "answer": [
+                            {
+                                "text": "1) White Hat Hackers.\r\n2) Black Hat Hackers.\r\n3) Gray Hat Hackers.\r\n4) Script Kiddies.\r\n5) Green Hat Hackers.\r\n6) Blue Hat Hackers.\r\n7) Red Hat Hackers.\r\n8) State/Nation Sponsored Hackers.",
+                                "type": "basic",
+                                "channel": "default"
+                            }
+                        ],
+                        "alternateAnswers": []
+                    },
+                    {
+                        "question": "Who are cyber security",
+                        "alternateQuestions": [],
+                        "terms": [
+                            "CyberBot|| || "
+                        ],
+                        "tags": [],
+                        "refId": "6b15340f-26d9-525b-995d-2b08843f701a",
+                        "faqStatus": true,
+                        "label": "Who are cyber security",
+                        "responseType": "message",
+                        "answer": [
+                            {
+                                "text": "Cyber security is the practice of defending computers, servers, mobile devices, electronic systems, networks, and data from malicious attacks.",
+                                "type": "basic",
+                                "channel": "default"
+                            }
+                        ],
+                        "alternateAnswers": []
+                    },
+                    {
+                        "question": "difference between hacking and cyber security",
+                        "alternateQuestions": [
+                            {
+                                "question": "hacking and cyber security difference",
+                                "terms": [
+                                    "CyberBot|| || "
+                                ],
+                                "tags": []
+                            }
+                        ],
+                        "terms": [
+                            "CyberBot|| || "
+                        ],
+                        "tags": [],
+                        "refId": "e981d388-14b3-5c03-9c72-b806ef9b42c3",
+                        "faqStatus": true,
+                        "label": "difference between hacking and cyber security",
+                        "responseType": "message",
+                        "answer": [
+                            {
+                                "text": "Well, Ethical Hacking is done by 'ethical' hackers who are legitimate or legal hackers, and their job is to do hacking with the permission of the owner and provide a report about the hack. Whereas, Cyber Security is managed by Cyber Security experts whose main goal is to defend the system from malicious activities.",
+                                "type": "basic",
+                                "channel": "default"
+                            }
+                        ],
+                        "alternateAnswers": [
+                            [
+                                {
+                                    "text": "Ethical hacking can be viewed as a subset of cybersecurity. Ultimately both focus on data protection. Both cybersecurity professionals and ethical hackers must be aware of the scope and the shared mission to secure their companies.",
+                                    "type": "basic",
+                                    "channel": "default"
+                                }
+                            ]
+                        ]
+                    }
+                ],
+                "synonyms": {},
+                "nodes": [
+                    {
+                        "terms": [
+                            "CyberBot"
+                        ],
+                        "preConditions": [],
+                        "contextTags": [],
+                        "enableContext": false,
+                        "termStatus": true
+                    }
+                ]
+            }
+        }
+    ],
+    "smallTalk": [
+        {
+            "language": "en",
+            "groups": [
+                {
+                    "groupName": "greetings",
+                    "groupId": "smg-56006e03-73b2-5d6a-a7b2-55e30531df4e",
+                    "vNameSpace": [
+                        "87c2c744-2dfd-5e88-ac6a-4010f3a5b10a"
+                    ],
+                    "nodes": [
+                        {
+                            "userUtterances": [
+                                {
+                                    "text": "!y ~yes"
+                                },
+                                {
+                                    "text": "get_it"
+                                },
+                                {
+                                    "text": "i_understand"
+                                }
+                            ],
+                            "botUtterances": [
+                                {
+                                    "channel": "default",
+                                    "text": "OK, great! ",
+                                    "type": "basic",
+                                    "_id": "mt-936ad759-8d19-57a1-ae76-41c5884c9ed0"
+                                },
+                                {
+                                    "channel": "default",
+                                    "text": "Alright. ",
+                                    "type": "basic",
+                                    "_id": "mt-a2208ba5-1eb9-58e7-b7e1-08e9b14d9e9e"
+                                },
+                                {
+                                    "channel": "default",
+                                    "text": "Right, then.",
+                                    "type": "basic",
+                                    "_id": "mt-0ebd274a-9650-5910-b0b9-20c2aeb407fc"
+                                }
+                            ],
+                            "state": "configured",
+                            "language": "en",
+                            "refId": "ecce9601-f830-5e97-8717-97944d41030d",
+                            "seq": 9,
+                            "nodeId": "smn-00d870b4-f8a0-5b6c-b648-36d4ce3dcdae"
+                        },
+                        {
+                            "userUtterances": [
+                                {
+                                    "text": "~positiveackwords"
+                                }
+                            ],
+                            "botUtterances": [
+                                {
+                                    "channel": "default",
+                                    "text": "Glad I could help. ",
+                                    "type": "basic",
+                                    "_id": "mt-a1fbd196-f917-5455-a3f6-c9d3e61f9fea"
+                                },
+                                {
+                                    "channel": "default",
+                                    "text": "Always great to be able to help. ",
+                                    "type": "basic",
+                                    "_id": "mt-a7dccc50-f207-578f-9fcf-7710e9756a19"
+                                },
+                                {
+                                    "channel": "default",
+                                    "text": "Glad I could be of assistance. ",
+                                    "type": "basic",
+                                    "_id": "mt-1b6ea87d-cff3-53ad-b040-f886aaa08730"
+                                },
+                                {
+                                    "channel": "default",
+                                    "text": "Glad I could be of some help.",
+                                    "type": "basic",
+                                    "_id": "mt-61851c4f-2dbc-5058-90b4-a2485df1bf75"
+                                }
+                            ],
+                            "state": "configured",
+                            "language": "en",
+                            "refId": "2f11c6f9-6878-5c51-b2e4-c366f644db75",
+                            "seq": 4,
+                            "nodeId": "smn-0c667eb5-7e51-5d20-8524-70add7211a63"
+                        },
+                        {
+                            "userUtterances": [
+                                {
+                                    "text": "thanks"
+                                },
+                                {
+                                    "text": "thank ~you"
+                                }
+                            ],
+                            "botUtterances": [
+                                {
+                                    "channel": "default",
+                                    "text": "You're welcome.",
+                                    "type": "basic",
+                                    "_id": "mt-9d47b682-fcc2-5b4b-937b-2c3cec03e85d"
+                                }
+                            ],
+                            "state": "configured",
+                            "language": "en",
+                            "refId": "3e4dbebc-f0d9-5b83-ba9c-e116ec6d72d0",
+                            "seq": 8,
+                            "nodeId": "smn-168063c7-d0ef-5887-9635-5197d5e9cb68"
+                        },
+                        {
+                            "userUtterances": [
+                                {
+                                    "text": "~ibedone"
+                                }
+                            ],
+                            "botUtterances": [
+                                {
+                                    "channel": "default",
+                                    "text": "Alright. ",
+                                    "type": "basic",
+                                    "_id": "mt-f876b7d0-6c17-51bb-ac21-244bd8ecdbf2"
+                                },
+                                {
+                                    "channel": "default",
+                                    "text": "Right, then.",
+                                    "type": "basic",
+                                    "_id": "mt-7b32698e-2cb9-58df-97b4-24b64e383037"
+                                }
+                            ],
+                            "state": "configured",
+                            "language": "en",
+                            "refId": "b0661545-cf5b-5d3f-93a3-4abe58ba2b98",
+                            "seq": 6,
+                            "nodeId": "smn-25df0d02-8bd1-5a0e-9814-5e619d0639b1"
+                        },
+                        {
+                            "userUtterances": [
+                                {
+                                    "text": "~emohello"
+                                }
+                            ],
+                            "botUtterances": [
+                                {
+                                    "channel": "default",
+                                    "text": "Hi! ",
+                                    "type": "basic",
+                                    "_id": "mt-805063d2-f63b-5c36-ba4b-d22d118ca60f"
+                                },
+                                {
+                                    "channel": "default",
+                                    "text": "Hello ",
+                                    "type": "basic",
+                                    "_id": "mt-33cf4de5-3b6c-5ad8-ad82-d45a7b4e5a8d"
+                                },
+                                {
+                                    "channel": "default",
+                                    "text": "Hi there! ",
+                                    "type": "basic",
+                                    "_id": "mt-c6a9ae6d-8427-5217-a62c-50ccad6d5f13"
+                                },
+                                {
+                                    "channel": "default",
+                                    "text": "Hey :)",
+                                    "type": "basic",
+                                    "_id": "mt-ddc3847a-d76e-5440-bb28-f015375a8c29"
+                                }
+                            ],
+                            "state": "configured",
+                            "language": "en",
+                            "refId": "216ba29b-609f-55ca-a6a3-bd3b713db7d7",
+                            "seq": 0,
+                            "nodeId": "smn-46ddd110-b226-5e93-ae9a-d5c289264313"
+                        },
+                        {
+                            "userUtterances": [
+                                {
+                                    "text": "~emohowzit"
+                                }
+                            ],
+                            "botUtterances": [
+                                {
+                                    "channel": "default",
+                                    "text": "I'm good. Thank you.",
+                                    "type": "basic",
+                                    "_id": "mt-8001ddc6-42a7-58eb-8642-cd8f4cacc8ae"
+                                }
+                            ],
+                            "state": "configured",
+                            "language": "en",
+                            "refId": "5cd1ea95-59b4-594c-aaf3-8d4326df405f",
+                            "seq": 1,
+                            "nodeId": "smn-5394574f-6229-589a-9e09-a519cbe35d3a"
+                        },
+                        {
+                            "userUtterances": [
+                                {
+                                    "text": "What ~your name"
+                                },
+                                {
+                                    "text": "what ~you called"
+                                },
+                                {
+                                    "text": "< who be ~you { ? } >"
+                                },
+                                {
+                                    "text": "< tell about yourself >"
+                                },
+                                {
+                                    "text": "< what be [~you ~your] [call name] { ? } >"
+                                }
+                            ],
+                            "botUtterances": [
+                                {
+                                    "channel": "default",
+                                    "text": "I'm <display-bot-name>.",
+                                    "type": "basic",
+                                    "_id": "mt-326153bd-5f61-5db0-aab5-55fd83c80032"
+                                }
+                            ],
+                            "state": "configured",
+                            "language": "en",
+                            "refId": "20cc97cc-48af-52a9-b83b-cbf24a619705",
+                            "seq": 2,
+                            "nodeId": "smn-72e5984c-b7b4-5f5d-97e6-7d20a11f428c"
+                        },
+                        {
+                            "userUtterances": [
+                                {
+                                    "text": "!n ~no"
+                                }
+                            ],
+                            "botUtterances": [
+                                {
+                                    "channel": "default",
+                                    "text": "OK. ",
+                                    "type": "basic",
+                                    "_id": "mt-de837ff5-c3f2-5b43-be07-f31656fcd7fd"
+                                },
+                                {
+                                    "channel": "default",
+                                    "text": "Alright.",
+                                    "type": "basic",
+                                    "_id": "mt-c94cbf1a-e8d9-571a-98be-899d6ca14736"
+                                }
+                            ],
+                            "state": "configured",
+                            "language": "en",
+                            "refId": "7cbd39b0-b191-5440-8a58-cb89c9238d3e",
+                            "seq": 5,
+                            "nodeId": "smn-aedc2848-26ec-54d0-bd82-c9426be39b1b"
+                        },
+                        {
+                            "userUtterances": [
+                                {
+                                    "text": "~emohappy"
+                                }
+                            ],
+                            "botUtterances": [
+                                {
+                                    "channel": "default",
+                                    "text": "Glad I could help. ",
+                                    "type": "basic",
+                                    "_id": "mt-d61ccba2-1fde-5e57-ad20-364fc7863bfc"
+                                },
+                                {
+                                    "channel": "default",
+                                    "text": "Glad you are happy.",
+                                    "type": "basic",
+                                    "_id": "mt-baf118a7-d3a1-5d92-bc20-91cd4cebfb7a"
+                                }
+                            ],
+                            "state": "configured",
+                            "language": "en",
+                            "refId": "d0847c54-fe2b-5c2b-8afe-d51f9308371f",
+                            "seq": 3,
+                            "nodeId": "smn-dbb2fa38-624e-5f7d-b307-4a46e444e4d4"
+                        },
+                        {
+                            "userUtterances": [
+                                {
+                                    "text": "~emogoodbye"
+                                }
+                            ],
+                            "botUtterances": [
+                                {
+                                    "channel": "default",
+                                    "text": "OK, bye for now! ",
+                                    "type": "basic",
+                                    "_id": "mt-d38909a4-099c-5dd8-9208-d0316976d00a"
+                                },
+                                {
+                                    "channel": "default",
+                                    "text": "Have a good one!",
+                                    "type": "basic",
+                                    "_id": "mt-2dab7490-5c1e-5aba-92ca-6aff02bcd56b"
+                                }
+                            ],
+                            "state": "configured",
+                            "language": "en",
+                            "refId": "3bec6813-5226-59af-babd-b35ddcd54fb7",
+                            "seq": 7,
+                            "nodeId": "smn-fb13b60f-0a97-5282-bbcf-ed0156e1b06b"
+                        }
+                    ],
+                    "count": 9
+                },
+                {
+                    "groupName": "Custom talk",
+                    "groupId": "smg-5e83eaa0-5a1f-5b45-9b4f-cedd543b7dbf",
+                    "vNameSpace": [
+                        "87c2c744-2dfd-5e88-ac6a-4010f3a5b10a"
+                    ],
+                    "nodes": [
+                        {
+                            "userUtterances": [
+                                {
+                                    "text": "What do you do ?"
+                                },
+                                {
+                                    "text": "what you do"
+                                }
+                            ],
+                            "botUtterances": [
+                                {
+                                    "channel": "default",
+                                    "text": "I am Cyber Assist. I assist you with hacking related issues and help you to fix it.",
+                                    "type": "basic",
+                                    "_id": "mt-914926ec-0b56-5160-a4d8-5089f26b48c9"
+                                }
+                            ],
+                            "state": "configured",
+                            "language": "en",
+                            "refId": "232d0e1f-e453-51fc-a5b4-29cbd5f8b574",
+                            "seq": 0,
+                            "nodeId": "smn-deb47f0a-d951-5cd8-8c11-df435b203692"
+                        }
+                    ],
+                    "count": 0
+                }
+            ]
+        }
+    ],
+    "widgets": [],
+    "panels": [],
+    "forms": [],
+    "unexportedTasks": [],
+    "customDashboards": [],
+    "paramMaps": [],
+    "taskDgParamMaps": [],
+    "idpConfigurations": [],
+    "sentences": [],
+    "koraResponses": [],
+    "customTemplates": [],
+    "mlParams": [
+        {
+            "type": 1,
+            "dialogIntents": [],
+            "isDefault": false,
+            "intentParams": {
+                "type": "V3",
+                "minngram": 1,
+                "maxngram": 4,
+                "ngram": [
+                    1,
+                    1
+                ],
+                "useSynonyms": false,
+                "f_negation": false,
+                "useStopwords": false,
+                "usePlaceholders": true,
+                "useTestPlaceholders": false,
+                "features": "n_gram",
+                "skip_gram": {
+                    "seqLength": 2,
+                    "maxSkipDistance": 1
+                }
+            },
+            "nerParams": {
+                "type": "corenlp"
+            },
+            "intentData": {
+                "stopwords": "a about above abst accordance according accordingly across act actually adj  affected affecting affects afterwards again against ah all almost alone along  already also although always am among amongst an and announce another any anybody anyhow  anymore anyone anything anyway anyways anywhere apparently approximately are aren arent  arise around as aside ask asking at auth away awfully  b back be became because become becomes becoming been before beforehand begin beginning  beginnings begins behind being believe below beside besides between beyond biol both brief  briefly but by  c ca came cause causes certain certainly co com come comes contain  containing contains could couldnt  d did didn't different do does doesn't doing done don't down downwards during  e each ed edu effect eg either else elsewhere end ending enough especially  et et-al etc even ever every everybody everyone everything everywhere ex except  f far few ff fix followed following follows for former formerly forth  found from further furthermore  g gave get gets give given gives giving goes gone got gotten  h had happens hardly has hasn't haven't he hed hello hence her here hereafter hereby  herein heres hereupon hers herself hes hi hid him himself his hither home how howbeit however  i ie if i'll im immediate immediately importance important in inc indeed index information  instead into invention inward is isn't it itd it'll its itself i've 'm  j just  k keep keeps kept kg km know known knows  l largely last lately later latter latterly least less lest let lets like liked likely  line little 'll ltd  m made mainly make makes many may maybe me mean means meantime meanwhile merely mg  might miss ml more moreover most mostly mr mrs much mug must my myself  n na namely nay nd near nearly necessarily necessary needs neither never  nevertheless new next no nobody non none nonetheless noone nor normally  nos noted nothing now nowhere  o obtain obtained obviously of off often oh ok okay old omitted on once one ones only onto  or ord other others otherwise ought our ours ourselves over overall owing own  p page pages part particular particularly past per perhaps placed please plus poorly  possible possibly pp present previously primarily probably  promptly proud provides put q que quickly quite qv r ran rather rd re readily really  recent recently ref refs regarding regardless regards related relatively research  respectively resulted resulting results right run  s said same saw say saying says sec section see seeing seem seemed seeming seems seen  self selves sent seven several shall she shed she'll shes should shouldn't show showed  shown showns shows significant significantly similar similarly since slightly so some  somebody somehow someone somethan something sometime sometimes somewhat somewhere soon  sorry specifically specified specify specifying still stop strongly sub substantially  successfully such sufficiently sup sure  t take taken taking tell tends th than thank thanks thanx that that'll thats that've  the their theirs them themselves then thence there thereafter thereby thered therefore  therein there'll thereof therere theres thereto thereupon there've these they theyd they'll  theyre they've think this those thou though thoughh thousand throug through throughout  thru thus til tip to together too took toward towards tried tries truly try trying ts  twice u un under unfortunately unless unlike unlikely until unto up upon ups us use used useful  usefully usefulness uses using usually  v value various 've very via viz vol vols vs  w want wants was wasnt way we wed welcome we'll went were werent we've what whatever  what'll whats when whence whenever where whereafter whereas whereby wherein wheres  whereupon wherever whether which while whim whither who whod whoever whole who'll whom  whomever whos whose why widely willing wish with within without wont words world would  wouldnt www x y yes yet you youd you'll your youre yours yourself yourselves you've  z zero hey hello howdy bro good morning afternoon noon night bye thanks yeah yo no kk"
+            },
+            "mlConfigurations": {
+                "NoneIntent": true,
+                "ML_Add_FAQS_To_NoneIntent": true,
+                "NoneIntentCustomTraining": false
+            },
+            "language": "en",
+            "state": "configured",
+            "utterances": []
+        },
+        {
+            "type": 3,
+            "dialogIntents": [
+                "c58af14f-fc5b-5621-b153-beb435b2b822",
+                "73c0c9bb-db86-5d3d-a1d9-32ebc839fe18",
+                "64367b17-478c-5af5-b486-ef81cb14ea17"
+            ],
+            "isDefault": true,
+            "language": "en",
+            "intentParams": {
+                "type": "V3",
+                "minngram": 1,
+                "maxngram": 4,
+                "ngram": [
+                    1,
+                    1
+                ],
+                "useSynonyms": false,
+                "f_negation": false,
+                "useStopwords": false,
+                "usePlaceholders": true,
+                "useTestPlaceholders": false,
+                "features": "n_gram",
+                "skip_gram": {
+                    "seqLength": 2,
+                    "maxSkipDistance": 1
+                }
+            },
+            "nerParams": {
+                "type": "corenlp"
+            },
+            "intentData": {
+                "stopwords": "a about above abst accordance according accordingly across act actually adj  affected affecting affects afterwards again against ah all almost alone along  already also although always am among amongst an and announce another any anybody anyhow  anymore anyone anything anyway anyways anywhere apparently approximately are aren arent  arise around as aside ask asking at auth away awfully  b back be became because become becomes becoming been before beforehand begin beginning  beginnings begins behind being believe below beside besides between beyond biol both brief  briefly but by  c ca came cause causes certain certainly co com come comes contain  containing contains could couldnt  d did didn't different do does doesn't doing done don't down downwards during  e each ed edu effect eg either else elsewhere end ending enough especially  et et-al etc even ever every everybody everyone everything everywhere ex except  f far few ff fix followed following follows for former formerly forth  found from further furthermore  g gave get gets give given gives giving goes gone got gotten  h had happens hardly has hasn't haven't he hed hello hence her here hereafter hereby  herein heres hereupon hers herself hes hi hid him himself his hither home how howbeit however  i ie if i'll im immediate immediately importance important in inc indeed index information  instead into invention inward is isn't it itd it'll its itself i've 'm  j just  k keep keeps kept kg km know known knows  l largely last lately later latter latterly least less lest let lets like liked likely  line little 'll ltd  m made mainly make makes many may maybe me mean means meantime meanwhile merely mg  might miss ml more moreover most mostly mr mrs much mug must my myself  n na namely nay nd near nearly necessarily necessary needs neither never  nevertheless new next no nobody non none nonetheless noone nor normally  nos noted nothing now nowhere  o obtain obtained obviously of off often oh ok okay old omitted on once one ones only onto  or ord other others otherwise ought our ours ourselves over overall owing own  p page pages part particular particularly past per perhaps placed please plus poorly  possible possibly pp present previously primarily probably  promptly proud provides put q que quickly quite qv r ran rather rd re readily really  recent recently ref refs regarding regardless regards related relatively research  respectively resulted resulting results right run  s said same saw say saying says sec section see seeing seem seemed seeming seems seen  self selves sent seven several shall she shed she'll shes should shouldn't show showed  shown showns shows significant significantly similar similarly since slightly so some  somebody somehow someone somethan something sometime sometimes somewhat somewhere soon  sorry specifically specified specify specifying still stop strongly sub substantially  successfully such sufficiently sup sure  t take taken taking tell tends th than thank thanks thanx that that'll thats that've  the their theirs them themselves then thence there thereafter thereby thered therefore  therein there'll thereof therere theres thereto thereupon there've these they theyd they'll  theyre they've think this those thou though thoughh thousand throug through throughout  thru thus til tip to together too took toward towards tried tries truly try trying ts  twice u un under unfortunately unless unlike unlikely until unto up upon ups us use used useful  usefully usefulness uses using usually  v value various 've very via viz vol vols vs  w want wants was wasnt way we wed welcome we'll went were werent we've what whatever  what'll whats when whence whenever where whereafter whereas whereby wherein wheres  whereupon wherever whether which while whim whither who whod whoever whole who'll whom  whomever whos whose why widely willing wish with within without wont words world would  wouldnt www x y yes yet you youd you'll your youre yours yourself yourselves you've  z zero hey hello howdy bro good morning afternoon noon night bye thanks yeah yo no kk"
+            },
+            "state": "configured",
+            "name": "Dialog Models Group",
+            "exactMatchThreshold": 95,
+            "minThreshold": 0.3,
+            "maxThreshold": 80,
+            "mlpGroupId": "6317fdad3a547177751329bd",
+            "utterances": []
+        },
+        {
+            "type": 2,
+            "dialogIntents": [],
+            "isDefault": false,
+            "language": "en",
+            "intentParams": {
+                "type": "V3",
+                "minngram": 1,
+                "maxngram": 4,
+                "ngram": [
+                    1,
+                    1
+                ],
+                "useSynonyms": false,
+                "f_negation": false,
+                "useStopwords": false,
+                "usePlaceholders": true,
+                "useTestPlaceholders": false,
+                "features": "n_gram",
+                "skip_gram": {
+                    "seqLength": 2,
+                    "maxSkipDistance": 1
+                }
+            },
+            "nerParams": {
+                "type": "corenlp"
+            },
+            "intentData": {
+                "stopwords": "a about above abst accordance according accordingly across act actually adj  affected affecting affects afterwards again against ah all almost alone along  already also although always am among amongst an and announce another any anybody anyhow  anymore anyone anything anyway anyways anywhere apparently approximately are aren arent  arise around as aside ask asking at auth away awfully  b back be became because become becomes becoming been before beforehand begin beginning  beginnings begins behind being believe below beside besides between beyond biol both brief  briefly but by  c ca came cause causes certain certainly co com come comes contain  containing contains could couldnt  d did didn't different do does doesn't doing done don't down downwards during  e each ed edu effect eg either else elsewhere end ending enough especially  et et-al etc even ever every everybody everyone everything everywhere ex except  f far few ff fix followed following follows for former formerly forth  found from further furthermore  g gave get gets give given gives giving goes gone got gotten  h had happens hardly has hasn't haven't he hed hello hence her here hereafter hereby  herein heres hereupon hers herself hes hi hid him himself his hither home how howbeit however  i ie if i'll im immediate immediately importance important in inc indeed index information  instead into invention inward is isn't it itd it'll its itself i've 'm  j just  k keep keeps kept kg km know known knows  l largely last lately later latter latterly least less lest let lets like liked likely  line little 'll ltd  m made mainly make makes many may maybe me mean means meantime meanwhile merely mg  might miss ml more moreover most mostly mr mrs much mug must my myself  n na namely nay nd near nearly necessarily necessary needs neither never  nevertheless new next no nobody non none nonetheless noone nor normally  nos noted nothing now nowhere  o obtain obtained obviously of off often oh ok okay old omitted on once one ones only onto  or ord other others otherwise ought our ours ourselves over overall owing own  p page pages part particular particularly past per perhaps placed please plus poorly  possible possibly pp present previously primarily probably  promptly proud provides put q que quickly quite qv r ran rather rd re readily really  recent recently ref refs regarding regardless regards related relatively research  respectively resulted resulting results right run  s said same saw say saying says sec section see seeing seem seemed seeming seems seen  self selves sent seven several shall she shed she'll shes should shouldn't show showed  shown showns shows significant significantly similar similarly since slightly so some  somebody somehow someone somethan something sometime sometimes somewhat somewhere soon  sorry specifically specified specify specifying still stop strongly sub substantially  successfully such sufficiently sup sure  t take taken taking tell tends th than thank thanks thanx that that'll thats that've  the their theirs them themselves then thence there thereafter thereby thered therefore  therein there'll thereof therere theres thereto thereupon there've these they theyd they'll  theyre they've think this those thou though thoughh thousand throug through throughout  thru thus til tip to together too took toward towards tried tries truly try trying ts  twice u un under unfortunately unless unlike unlikely until unto up upon ups us use used useful  usefully usefulness uses using usually  v value various 've very via viz vol vols vs  w want wants was wasnt way we wed welcome we'll went were werent we've what whatever  what'll whats when whence whenever where whereafter whereas whereby wherein wheres  whereupon wherever whether which while whim whither who whod whoever whole who'll whom  whomever whos whose why widely willing wish with within without wont words world would  wouldnt www x y yes yet you youd you'll your youre yours yourself yourselves you've  z zero hey hello howdy bro good morning afternoon noon night bye thanks yeah yo no kk"
+            },
+            "state": "configured",
+            "exactMatchThreshold": 95,
+            "minThreshold": 0.3,
+            "maxThreshold": 80,
+            "mlConfigurations": {
+                "NoneIntent": true,
+                "ML_Add_FAQS_To_NoneIntent": true,
+                "NoneIntentCustomTraining": false
+            },
+            "mlpGroupId": "6317fdad3a547177751329bc",
+            "utterances": []
+        }
+    ],
+    "contentVariables": [],
+    "namespaces": [
+        {
+            "_id": "ns-a796f294-bf72-57c4-851d-c7c526d6821c",
+            "type": "system",
+            "lModifiedOn": "2022-09-03T04:51:18.656Z",
+            "createdOn": "2022-09-03T04:51:18.656Z",
+            "streamId": "st-e61d04dd-33f0-5ac9-b625-e0e33b74d1c7",
+            "createdBy": "u-f9df201d-ede0-56b1-ad57-027d5e3d290d",
+            "status": "configured",
+            "name": "default",
+            "refId": "87c2c744-2dfd-5e88-ac6a-4010f3a5b10a",
+            "__v": 0
+        }
+    ],
+    "exportOptions": {
+        "tasks": [
+            "botTask",
+            "knowledgeGraph",
+            "smallTalk",
+            "forms"
+        ],
+        "nlpData": [
+            "nlpSettings",
+            "utterances",
+            "patterns",
+            "standardResponses"
+        ],
+        "settings": [
+            "botSettings",
+            "botVariables",
+            "ivrSettings"
+        ],
+        "subTasks": {
+            "dialogs": [
+                "dg-efdd8259-ac5e-5c30-bcc0-ec40b6d3b8a7",
+                "dg-5cbe42ea-9c5e-5b3c-b2fa-ebcde8cef262",
+                "dg-c25ce06d-1cdf-5996-b6d5-aeca87b9a6f2"
+            ],
+            "alerts": [],
+            "actions": [],
+            "forms": []
+        },
+        "IncludeDependentTasks": true,
+        "IncludeFormDependentTasks": true
+    },
+    "environmentVersionInfo": "9.1.7",
+    "traits": [],
+    "encryptedHash": "667486288b94d1a442ea3a4436135235"
+}
